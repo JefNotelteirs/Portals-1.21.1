@@ -4,3 +4,4 @@ evidence/
 .gitignore
 README.md
 *.log
+sync-onechunk.sh

@@ -9,7 +9,8 @@ github.com/JefNotelteirs/Psychokring_return_of_the_PSY). Its `.pw.toml` files an
 copied, not re-resolved. That instance and that repo were not touched.
 
 Theme: Create + Create Aeronautics airships, see-through Immersive Portals, Relics and Artifacts
-trinkets, Twilight Forest, Backpacked. Curios/relic slots survive death, nothing else does.
+trinkets, Twilight Forest, Backpacked, and the custom OneChunk void dimension. Curios/relic slots
+survive death, nothing else does.
 
 ## Status at a glance
 
@@ -23,6 +24,8 @@ trinkets, Twilight Forest, Backpacked. Curios/relic slots survive death, nothing
 | Client mod loading | **UNTESTED.** No client was launched (rule: no GUI). Files sync into the Prism instance fine |
 | G.L.A.S.S + Immersive Portals on the client | **Predicted crash, see the next section** |
 | Airships (Sable sub-levels) going through portals | Untested (needs a player) |
+| OneChunk on the server (dimensions, `/onechunk` commands, island create + reset, restart) | Tested, clean, 20 TPS in every dimension (section 11) |
+| OneChunk gateway teleport (sneak + Eye of Ender on the pad) | Untested (needs a player); static check says it is compatible with Immersive Portals |
 
 ## 1. FIRST THING TO TEST: G.L.A.S.S vs Immersive Portals on the client
 
@@ -64,7 +67,7 @@ Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
 `--bootstrap-no-update` is there because the bootstrap's self-update hit a GitHub API 403
 (rate limit) during setup. `packwiz-installer.jar` is already in the instance folder.
-The mods were pre-synced into the instance once (54 jars). Edit the pack, run
+The mods were pre-synced into the instance (55 jars, including OneChunk). Edit the pack, run
 `~/go/bin/packwiz refresh`, launch again, and the instance picks up the change.
 
 When the pack moves to GitHub later, swap the `file:///...` URL for the raw `pack.toml` URL,
@@ -116,7 +119,7 @@ on port 25591. `server.properties` is back on 25565.
 
 ## 4. Mod list
 
-54 jars. Everything from the PSY pack is kept unless listed below.
+55 jars. Everything from the PSY pack is kept unless listed below.
 
 ### Added
 
@@ -127,6 +130,7 @@ on port 25591. `server.properties` is back on 25565.
 | G.L.A.S.S Remastered 1.0.0-experimental.sable (NeoForge build) | Official NeoForge build from the author (Modrinth `glass-remastered`, version `hSDwnXJr`). Optional, default on. See section 1 |
 | Reliquified Twilight Forest 0.5.3 | Relics addon, see section 5 |
 | More Relics 1.7.7 | Relics addon, see section 5 |
+| OneChunk 1.0.0 (custom, `mods/onechunk-neoforge-1.21.1-1.0.0.jar`) | Void dimension with resetting one-chunk islands. Shipped as a jar in the repo, both sides, like ChaosServer's Soulbound. See section 11 |
 
 ### Changed
 
@@ -313,3 +317,64 @@ Run these in `~/minecraft-packs/Portals-1.21.1`:
   official build (crashes with Sable).
 - `~/minecraft-packs/Portals-1.21.1/.packwizignore` keeps `server/`, `evidence/` and this README
   out of the pack, so clients never download them.
+
+## 11. OneChunk (custom mod)
+
+Source: `~/mc-mods/onechunk-neoforge` (README: `~/mc-mods/onechunk-neoforge/README.md`).
+It adds the void dimension `onechunk:onechunk` and a hidden source dimension `onechunk:source`.
+Way in: a flat 3x3 pad of crying obsidian, sneak + right-click it with an Eye of Ender.
+No blocks, items or mixins; everything runs on the server, but it is shipped on both sides
+(the client needs the dimension type and datapack registrations).
+
+### Re-syncing a new OneChunk build (one step)
+
+The mod is still being changed (grace-area feature). After a new jar lands in
+`~/mc-mods/onechunk-neoforge/dist/`, run:
+
+```
+~/minecraft-packs/Portals-1.21.1/sync-onechunk.sh
+```
+
+It deletes the old `onechunk-neoforge-*.jar` from `~/minecraft-packs/Portals-1.21.1/mods/`,
+copies the newest jar from `dist/` (or the path you pass as the first argument), runs
+`~/go/bin/packwiz refresh` and prints the git commit command. Prism picks the new jar up on the
+next launch, the server on the next `start.sh`. Re-test the server afterwards (section 8 shows how
+the console was driven).
+
+### Integration test (server, headless, full pack)
+
+Evidence: `~/minecraft-packs/Portals-1.21.1/evidence/boot6-onechunk-CLEAN-island-link-reset.log`
+and `~/minecraft-packs/Portals-1.21.1/evidence/boot7-onechunk-CLEAN-restart-persistence.log`.
+Run on port 25591 because another agent's dev server used 25565 earlier; `server.properties` is
+back on 25565, and the test world was deleted.
+
+- `Done (11.279s)!` with OneChunk loaded (`OneChunk 1.0.0 (onechunk)`).
+- No `@Redirect conflict`, `InjectionError` or registry errors in the log. The only overwrite
+  warnings are ModernFix vs Lithium, which exist without OneChunk too.
+- Both dimensions register with every mod that hooks levels: IP `Global portal storage
+  initialized onechunk:onechunk` / `onechunk:source`, Sable creates a physics pipeline for both,
+  IP's dimension id map gets `onechunk:onechunk -> 2`, `onechunk:source -> 5`.
+- `/onechunk status` from the console: `Islands: 0, cycles done: 0`, `Next reset in 888 s`.
+- Built a pad with `fill`, then `/onechunk link minecraft:overworld 200 69 200`:
+  `Island created at chunk (200, 200)`, `Initial fill ... done ... copy 11 ticks / 548 ms wall`.
+- `/onechunk reset`: `Cycle #1 complete: 1 islands replaced`.
+- `neoforge tps`: 20.000 TPS in Overworld, Nether, End, Twilight Forest, `ipl_sable:sublevels`,
+  `onechunk:onechunk` and `onechunk:source`.
+- Restart: `Wiped hidden source dimension data`, `Loaded 1 islands, 1 cycles so far`,
+  `Done (2.212s)!`, 20 TPS everywhere, clean stop.
+
+### Immersive Portals / IPSable checks
+
+- Dimension handling: IPSable registers its portal storage, dimension id and Sable pipeline for
+  the OneChunk dimensions without errors. `ipl_sable:sublevels` keeps loading and ticking next to
+  them. OneChunk only links Overworld and OneChunk, so it never targets `ipl_sable:sublevels`.
+- Teleport path: OneChunk teleports with `ServerPlayer.teleportTo(ServerLevel, x, y, z, yaw, pitch)`.
+  IP has an `@Inject` on that method (`MixinServerPlayerEntity_MA.onTeleported`) that only runs
+  its "before dimension travel" bookkeeping (chunk tracker cleanup, custom portal gen hook) and
+  does not cancel the teleport. This is the same path vanilla `/tp` uses with IP, so it is
+  compatible by design. Not exercised with a real player.
+- Portal frames: no mod in the pack ships an Immersive Portals custom portal generation datapack,
+  so nothing else claims a crying obsidian frame.
+- Not tested: a player walking through a gateway, an airship near an island at reset time, and
+  `coordinate_scale 0.0625` together with IP's "adaptive" nether portal mode (the OneChunk
+  dimension is not a Nether-portal target, so this should not matter).
