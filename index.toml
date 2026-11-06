@@ -119,7 +119,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "f0aa35028d210e4c3b87e3029520dea9ead7db9d639e97faad2db374f6a9b2c1"
+hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
@@ -204,4 +204,9 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true

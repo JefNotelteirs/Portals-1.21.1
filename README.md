@@ -67,7 +67,7 @@ Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
 `--bootstrap-no-update` is there because the bootstrap's self-update hit a GitHub API 403
 (rate limit) during setup. `packwiz-installer.jar` is already in the instance folder.
-The mods were pre-synced into the instance (19 jars, including OneChunk). Edit the pack, run
+The mods were pre-synced into the instance (20 jars, including OneChunk). Edit the pack, run
 `~/go/bin/packwiz refresh`, launch again, and the instance picks up the change.
 
 When the pack moves to GitHub later, swap the `file:///...` URL for the raw `pack.toml` URL,
@@ -119,31 +119,69 @@ on port 25591. `server.properties` is back on 25565.
 
 ## 4. Mod list
 
-**19 jars. Only the mods Jef asked for, plus the libraries those mods declare as required.**
+**20 jars. Only the mods Jef asked for, plus the libraries those mods declare as required.**
 The pack was first built on the full PSY mod list; on Jef's correction everything he did not ask
 for was stripped out (see "Removed" below). The configs of removed mods were deleted too.
 
-### Requested mods (15 jars)
+### Requested mods (16 jars)
 
 | Mod | Version | Source |
 | --- | --- | --- |
 | Create | 6.0.10 (bundles Flywheel 1.0.6, Ponder, Registrate) | CurseForge |
 | Create Aeronautics (bundled jar: Aeronautics, Simulated, Offroad) | 1.3.2 | Modrinth |
 | Sable | 2.0.6 (bundles Sable Companion, Veil) | Modrinth |
-| Relics | 0.10.7.8 | CurseForge |
-| Artifacts | 13.2.1 (bundles ExpandAbility) | CurseForge |
+| Relics | 0.10.7.8 (held back on purpose, see "Relics 0.12 trade-off" below) | CurseForge |
+| Artifacts | 13.2.5, newest (bundles ExpandAbility) | Modrinth |
 | More Relics | 1.7.7 (release built for Relics 0.10.7.8) | Modrinth |
 | Reliquified Twilight Forest | 0.5.3 | Modrinth |
 | Reliquified Artifacts (rarcompat) | 0.9.7 | CurseForge |
-| The Twilight Forest | 4.8.3345 | CurseForge |
+| The Twilight Forest | 4.8.3345 (newest NeoForge 1.21.1 build on CurseForge) | CurseForge |
 | KeepCuriosInventory | 1.0.0 | CurseForge |
 | Curios API | 9.5.1 (the duplicate 9.0.15 jar from PSY was dropped) | CurseForge |
 | Backpacked | 3.0.5 | CurseForge |
 | Immersive Portals x Sable (IPSable) | 0.5.0 (fork of IP 6.0.7, see section 7) | GitHub release, hash-pinned |
 | G.L.A.S.S Remastered | 1.0.0-experimental.sable (optional, default on, see section 1) | Modrinth |
 | OneChunk (custom) | 1.0.0, jar shipped in `mods/` (see section 11) | this repo |
+| When Dungeons Arise | 2.1.68, newest 1.21.1 NeoForge build. Declares only NeoForge, so no new dependency. Modrinth marks it server-only; it is set to both sides so singleplayer playtests get the dungeons too | Modrinth |
 
 Later: the pack-balance mod from `~/mc-mods/pack-balance-neoforge` (not added yet).
+
+### Relics 0.12 trade-off (open decision for Jef)
+
+Newest 1.21.1 NeoForge builds (checked 2026-11-06 on Modrinth and CurseForge):
+
+| Mod | In the pack | Newest | Newest works with |
+| --- | --- | --- | --- |
+| Relics | 0.10.7.8 | 0.12.11 (beta) | |
+| Reliquified Artifacts (rarcompat) | 0.9.7 | 1.0.9 (beta, mod id is now `reliquified_artifacts`) | Relics `[0.12.3,)` and Artifacts exactly `[13.2.5]` |
+| More Relics | 1.7.7 | 1.7.7-forRelics-0.12.8-1.0 (beta) | Relics 0.12.8 (Modrinth pin); no Relics class it uses is missing in 0.12.11 |
+| Reliquified Twilight Forest | 0.5.3 | 0.5.3 (no newer build) | Relics 0.10.x only |
+| Artifacts | 13.2.5 | 13.2.5 | updated |
+| Twilight Forest | 4.8.3345 | 4.8.3345 | already newest |
+
+Reliquified Twilight Forest has no build for Relics 0.11 or 0.12. It references 38 Relics
+classes that no longer exist in 0.11.16 or 0.12.11. Tested on the server with everything at the
+newest version: mod loading fails with
+`ClassNotFoundException: it.hurts.sskirillss.relics.init.EffectRegistry` from
+`reliquified_twilight_forest.mixins.json:ChainBlockMixin`
+(`~/minecraft-packs/Portals-1.21.1/evidence/boot10-relics-0.12.11-with-RTF-0.5.3-CRASH.log`).
+
+So the choice is:
+
+- **A. What is on `master` now:** Relics 0.10.7.8, rarcompat 0.9.7, More Relics 1.7.7 and
+  Reliquified Twilight Forest 0.5.3. Every requested mod stays; Relics stays on the older line.
+- **B. Ready on git branch `test/relics-0.12`** (commit f44a75e): Relics 0.12.11, Reliquified
+  Artifacts 1.0.9, More Relics 1.7.7-forRelics-0.12.8-1.0, Artifacts 13.2.5, without Reliquified
+  Twilight Forest. Boots clean (`~/minecraft-packs/Portals-1.21.1/evidence/boot11-relics-0.12.11-WITHOUT-RTF-clean.log`).
+  Costs: drops a requested mod, the two relic addons are betas, and the rarcompat mod id change
+  means items from the old one vanish in an existing world (no world exists yet).
+
+To switch to B: `git -C ~/minecraft-packs/Portals-1.21.1 merge test/relics-0.12`, then
+`~/go/bin/packwiz refresh`.
+
+Curios (9.5.1, newest for 1.21.1) and KeepCuriosInventory (1.0.0, only build) are unchanged.
+KeepCuriosInventory only patches Curios' own drop handler, so the Relics version does not matter
+to it; it applied cleanly in both A and B.
 
 ### Libraries (4 jars) and why each one is there
 
@@ -186,7 +224,8 @@ Architectury for it, and all four are in.
   pack, and the libraries only those needed: Caelus, GeckoLib, Modopedia, Necronomicon, Platform,
   Resourceful Lib, StateObserver.
 
-Counts: 55 jars before the Create cleanup, 45 after it, **19 now** (expected 19, actual 19 on the
+Counts: 55 jars before the Create cleanup, 45 after it, 19 after the strip, **20 now** with When
+Dungeons Arise (expected 20, actual 20). The strip itself was: expected 19, actual 19 on the
 server and in the Prism instance). Evidence:
 `~/minecraft-packs/Portals-1.21.1/evidence/boot9-minimal-19-mods-CLEAN.log`.
 
@@ -313,23 +352,35 @@ All in `~/minecraft-packs/Portals-1.21.1/evidence/` (ANSI colours stripped):
   - one `[IPL-WATCHDOG] SERVER THREAD STALLED ~8s` while the test force-generated 384 chunks in
     a single tick burst (same moment as `Can't keep up! ... 8998ms`); normal play does not do that
   - `All dimensions are saved`, exit 0
+- `boot10-relics-0.12.11-with-RTF-0.5.3-CRASH.log` (+ `boot10-crash-report.txt`): newest Relics set
+  with Reliquified Twilight Forest 0.5.3. Mod loading fails (see section 4).
+- `boot11-relics-0.12.11-WITHOUT-RTF-clean.log`: the same set without Reliquified Twilight Forest
+  (branch `test/relics-0.12`): `Done (5.612s)!`, `Overall: 20.000 TPS`.
+- `boot12-artifacts-13.2.5-WDA-2.1.68-CLEAN.log`: the current `master` (20 jars). Key lines:
+  `Done (5.093s)!`, `The nearest dungeons_arise:heavenly_rider is at [1616, ~, -784]`,
+  `dungeons_arise:bandit_towers is at [2416, ~, -752]`, `dungeons_arise:illager_windmill is at
+  [-1584, ~, 1632]`, 256 Twilight Forest chunks, `hedge_maze` located, OneChunk island created and
+  filled, `keepInventory ... false`, 20.000 TPS in all 7 dimensions, clean stop. One harmless WDA
+  line: `Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_arise:find_fishing_hut]`
+  (upstream data issue, only two "find this structure" advancements).
 - `packwiz-sync.log`: server-side sync, `Finished successfully!`.
 - `installer-run.log`: NeoForge 21.1.265 server install, `The server installed successfully`.
 
 ## 9. Open decisions for Jef
 
-1. **G.L.A.S.S vs Immersive Portals** (section 1): test it first. If it crashes, which one goes?
+1. **Relics 0.12 vs Reliquified Twilight Forest** (section 4): stay on A (master) or merge B?
+2. **G.L.A.S.S vs Immersive Portals** (section 1): test it first. If it crashes, which one goes?
    Portals were a hard requirement, so the default answer is "untick G.L.A.S.S".
-2. **IPSable instead of official Immersive Portals.** Accept a one-person pre-release fork, or
+3. **IPSable instead of official Immersive Portals.** Accept a one-person pre-release fork, or
    give up see-through portals? There is no maintained official build that works with Sable.
-3. **Backpacks drop on death.** Flip `keepOnDeath = true` in
+4. **Backpacks drop on death.** Flip `keepOnDeath = true` in
    `~/minecraft-packs/Portals-1.21.1/config/backpacked.backpack.toml` if backpacks should count
    as "slots that survive death".
-4. **Hosting:** which machine, Java 21 install, port forward/firewall, systemd or not. On a Linux
+5. **Hosting:** which machine, Java 21 install, port forward/firewall, systemd or not. On a Linux
    host IPSable runs without its patched physics natives.
-5. **Optional extra:** the "Immersive Portals & Twilight Forest Compatibility" datapack on Modrinth
+6. **Optional extra:** the "Immersive Portals & Twilight Forest Compatibility" datapack on Modrinth
    makes Twilight portals see-through. Not added, untested.
-6. **Publishing:** this folder is a local git repo only. Pushing it to GitHub (like the other
+7. **Publishing:** this folder is a local git repo only. Pushing it to GitHub (like the other
    packs) and pointing the Prism pre-launch URL at the raw `pack.toml` is up to Jef.
 
 ## 10. Maintaining the pack
