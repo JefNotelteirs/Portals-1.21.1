@@ -67,7 +67,7 @@ Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
 `--bootstrap-no-update` is there because the bootstrap's self-update hit a GitHub API 403
 (rate limit) during setup. `packwiz-installer.jar` is already in the instance folder.
-The mods were pre-synced into the instance (20 jars, including OneChunk). Edit the pack, run
+The mods were pre-synced into the instance (21 jars, including OneChunk and Pack Balance). Edit the pack, run
 `~/go/bin/packwiz refresh`, launch again, and the instance picks up the change.
 
 When the pack moves to GitHub later, swap the `file:///...` URL for the raw `pack.toml` URL,
@@ -119,11 +119,11 @@ on port 25591. `server.properties` is back on 25565.
 
 ## 4. Mod list
 
-**20 jars. Only the mods Jef asked for, plus the libraries those mods declare as required.**
+**21 jars. Only the mods Jef asked for, plus the libraries those mods declare as required.**
 The pack was first built on the full PSY mod list; on Jef's correction everything he did not ask
 for was stripped out (see "Removed" below). The configs of removed mods were deleted too.
 
-### Requested mods (16 jars)
+### Requested mods (17 jars)
 
 | Mod | Version | Source |
 | --- | --- | --- |
@@ -143,8 +143,7 @@ for was stripped out (see "Removed" below). The configs of removed mods were del
 | G.L.A.S.S Remastered | 1.0.0-experimental.sable (optional, default on, see section 1) | Modrinth |
 | OneChunk (custom) | 1.0.0, jar shipped in `mods/` (see section 11) | this repo |
 | When Dungeons Arise | 2.1.68, newest 1.21.1 NeoForge build. Declares only NeoForge, so no new dependency. Modrinth marks it server-only; it is set to both sides so singleplayer playtests get the dungeons too | Modrinth |
-
-Later: the pack-balance mod from `~/mc-mods/pack-balance-neoforge` (not added yet).
+| Pack Balance (custom) | 1.0.0, jar shipped in `mods/` (see section 12). Requires only Create; Aeronautics, Simulated, Offroad, Sable and Curios are optional for it and all present | this repo |
 
 ### Relics 0.12 trade-off (open decision for Jef)
 
@@ -224,8 +223,8 @@ Architectury for it, and all four are in.
   pack, and the libraries only those needed: Caelus, GeckoLib, Modopedia, Necronomicon, Platform,
   Resourceful Lib, StateObserver.
 
-Counts: 55 jars before the Create cleanup, 45 after it, 19 after the strip, **20 now** with When
-Dungeons Arise (expected 20, actual 20). The strip itself was: expected 19, actual 19 on the
+Counts: 55 jars before the Create cleanup, 45 after it, 19 after the strip, 20 with When Dungeons Arise,
+**21 now** with Pack Balance (expected 21, actual 21 on the server and in Prism). The strip itself was: expected 19, actual 19 on the
 server and in the Prism instance). Evidence:
 `~/minecraft-packs/Portals-1.21.1/evidence/boot9-minimal-19-mods-CLEAN.log`.
 
@@ -356,7 +355,7 @@ All in `~/minecraft-packs/Portals-1.21.1/evidence/` (ANSI colours stripped):
   with Reliquified Twilight Forest 0.5.3. Mod loading fails (see section 4).
 - `boot11-relics-0.12.11-WITHOUT-RTF-clean.log`: the same set without Reliquified Twilight Forest
   (branch `test/relics-0.12`): `Done (5.612s)!`, `Overall: 20.000 TPS`.
-- `boot12-artifacts-13.2.5-WDA-2.1.68-CLEAN.log`: the current `master` (20 jars). Key lines:
+- `boot12-artifacts-13.2.5-WDA-2.1.68-CLEAN.log`: `master` with 20 jars. Key lines:
   `Done (5.093s)!`, `The nearest dungeons_arise:heavenly_rider is at [1616, ~, -784]`,
   `dungeons_arise:bandit_towers is at [2416, ~, -752]`, `dungeons_arise:illager_windmill is at
   [-1584, ~, 1632]`, 256 Twilight Forest chunks, `hedge_maze` located, OneChunk island created and
@@ -456,3 +455,49 @@ back on 25565, and the test world was deleted.
 - Not tested: a player walking through a gateway, an airship near an island at reset time, and
   `coordinate_scale 0.0625` together with IP's "adaptive" nether portal mode (the OneChunk
   dimension is not a Nether-portal target, so this should not matter).
+
+## 12. Pack Balance (custom mod)
+
+Source: `~/mc-mods/pack-balance-neoforge`. Mod id `pack_balance`, both sides, jar shipped in
+`~/minecraft-packs/Portals-1.21.1/mods/` like OneChunk. Config defaults are NOT changed by the pack
+(the server writes `server/config/pack_balance-common.toml` with the mod's own defaults).
+
+What it does:
+- Removes or strips Create recipes that make iron, gold, redstone, lapis, diamond, netherite or
+  emerald out of other materials (for example crushing crimsite or ochrum, filling redstone,
+  splashing gravel into iron nuggets). Processing the actual ores stays.
+- Caps drills at 25 per contraption or ship (Create contraptions, Simulated/Aeronautics assembly,
+  Sable sub-levels).
+- Caps the Artifacts Crystal Heart at 1 worn.
+
+Re-sync after a new build (one step):
+
+```
+~/minecraft-packs/Portals-1.21.1/sync-pack-balance.sh
+```
+
+Same behaviour as `sync-onechunk.sh`: deletes the old `pack_balance-neoforge-*.jar` from `mods/`,
+copies the newest one from `~/mc-mods/pack-balance-neoforge/dist/` (or the path you pass),
+refreshes the index and prints the commit command.
+
+### Test with the full pack and Artifacts 13.2.5
+
+The mod was built and tested against Artifacts 13.2.1; the pack has 13.2.5. Evidence:
+`~/minecraft-packs/Portals-1.21.1/evidence/boot13-pack-balance-artifacts-13.2.5-CLEAN.log` and the
+recipe dump `~/minecraft-packs/Portals-1.21.1/evidence/boot13-pack_balance_recipe_dump.txt`.
+
+- `[PackBalance] loaded: sable=true simulated=true curios=true`
+- `Done (7.615s)!`, no mixin conflicts or injection errors (its mixins into Create, Sable and
+  Simulated all applied; they are `required`).
+- `[PackBalance] recipes loaded: 3607 total, 1624 create:*, 6 pack_balance:* (stripped variants);
+  blocked materials: iron gold redstone lapis diamond netherite emerald`
+- `/packbalance dumprecipes` wrote 3607 recipes. In the dump:
+  - `create:crushing/crimsite`, `create:crushing/ochrum` and `create:filling/redstone` are absent.
+  - `create:splashing/gravel` is absent; the only gravel splashing recipe is
+    `pack_balance:create/splashing/gravel/without_iron  create:splashing  minecraft:flint`.
+- 20.000 TPS in all 7 dimensions (`Overall: 20.000 TPS (3.286 ms/tick)`), clean stop.
+- Crystal Heart cap and Artifacts 13.2.5: Pack Balance does not use any Artifacts class. It only
+  matches the item id `artifacts:crystal_heart` through the Curios API, and that item is still
+  registered in 13.2.5 (`artifacts/registry/ModItems`). The cap itself needs a player to test
+  (its test commands are off by default and were left off).
+- Not tested in game: the drill cap (needs a contraption or ship) and the heart cap (needs a player).

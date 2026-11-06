@@ -182,6 +182,10 @@ file = "mods/onechunk-neoforge-1.21.1-1.0.0.jar"
 hash = "e06b4da541cf0ee6f12a7ab349b108c23edac6e689ecd4d20b3ff6d0854acc79"
 
 [[files]]
+file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
+hash = "6fc382b8c7b6a34f5b662dc7f03e70ae840317d25b6957db7a087a0c50737737"
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
 metafile = true

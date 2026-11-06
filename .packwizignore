@@ -5,3 +5,4 @@ evidence/
 README.md
 *.log
 sync-onechunk.sh
+sync-pack-balance.sh
