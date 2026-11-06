@@ -1,0 +1,536 @@
+Loading manifest file...
+Loading pack file...
+Loading MultiMC pack file...
+MultiMC not detected
+Checking local files...
+Modpack name: Portals 1.21.1
+Checking local files...
+Comparing new files...
+[Warning] Accepting option G.L.A.S.S Remastered as option choosing is not implemented in the CLI
+Validating existing files...
+(1/136) backpacked.client.toml already exists (cached)
+(2/136) backpacked.augments.toml already exists (cached)
+(3/136) aeronautics-server.toml already exists (cached)
+(4/136) backpacked.backpack.toml already exists (cached)
+(5/136) backpacked.pickpocketing.toml already exists (cached)
+(6/136) backpacked.wandering_trader.toml already exists (cached)
+(7/136) charmofundying-server.toml already exists (cached)
+(8/136) create-client.toml already exists (cached)
+(9/136) create-common.toml already exists (cached)
+(10/136) create-server.toml already exists (cached)
+(11/136) create_aquatic_ambitions-server.toml already exists (cached)
+(12/136) create_dragons_plus-client.toml already exists (cached)
+(13/136) create_dragons_plus-common.toml already exists (cached)
+(14/136) create_dragons_plus-server.toml already exists (cached)
+(15/136) create_dragons_plus-simulated-extension-common.toml already exists (cached)
+(16/136) create_dragons_plus-simulated-extension-server.toml already exists (cached)
+(17/136) create_enchantment_industry-client.toml already exists (cached)
+(18/136) create_enchantment_industry-server.toml already exists (cached)
+(19/136) create_jetpack-client.toml already exists (cached)
+(20/136) createaddition-common.toml already exists (cached)
+(21/136) creategoggles-client.toml already exists (cached)
+(22/136) create_jetpack-common.toml already exists (cached)
+(23/136) curios-client.toml already exists (cached)
+(24/136) curios-common.toml already exists (cached)
+(25/136) enchanted-client.toml already exists (cached)
+(26/136) enchanted-server.toml already exists (cached)
+(27/136) curios-server.toml already exists (cached)
+(28/136) creategoggles-common.toml already exists (cached)
+(29/136) flywheel-client.toml already exists (cached)
+(30/136) ferritecore-mixin.toml already exists (cached)
+(31/136) fml.toml already exists (cached)
+(32/136) immersive_portals.json already exists (cached)
+(33/136) jei-server.toml already exists (cached)
+(34/136) blacklist.json already exists (cached)
+(35/136) ingredient-list-type-sort-order.ini already exists (cached)
+(36/136) jei-client.ini already exists (cached)
+(37/136) jei-colors.ini already exists (cached)
+(38/136) ingredient-list-mod-sort-order.ini already exists (cached)
+(39/136) item_obliterator.json5 already exists (cached)
+(40/136) jei-debug.ini already exists (cached)
+(41/136) recipe-category-sort-order.ini already exists (cached)
+(42/136) keepcuriosinventory-common.toml already exists (cached)
+(43/136) jei-mod-id-format.ini already exists (cached)
+(44/136) lithium.properties already exists (cached)
+(45/136) modernfix-common.toml already exists (cached)
+(46/136) modernfix-mixins.properties already exists (cached)
+(47/136) necronomicon.json5 already exists (cached)
+(48/136) modopedia-server.toml already exists (cached)
+(49/136) neoforge-common.toml already exists (cached)
+(50/136) neoforge-client.toml already exists (cached)
+(51/136) platform-client.toml already exists (cached)
+(52/136) neoforge-server.toml already exists (cached)
+(53/136) ponder-client.toml already exists (cached)
+(54/136) relics.yaml already exists (cached)
+(55/136) sable-client.toml already exists (cached)
+(56/136) offroad-server.toml already exists (cached)
+(57/136) simulated-client.toml already exists (cached)
+(58/136) simulated-server.toml already exists (cached)
+(59/136) trade_cycling-client.toml already exists (cached)
+(60/136) twilightforest-common.toml already exists (cached)
+(61/136) twilightforest-client.toml already exists (cached)
+(62/136) sable-common.toml already exists (cached)
+(63/136) vanillabackport-client.toml already exists (cached)
+(64/136) vanillabackport-common.toml already exists (cached)
+(65/136) client.cfg already exists (cached)
+(66/136) common.cfg already exists (cached)
+(67/136) default.cfg already exists (cached)
+(68/136) client.cfg already exists (cached)
+(69/136) common.cfg already exists (cached)
+(70/136) default_radar_categories_client.json already exists (cached)
+(71/136) default_radar_categories_server.json already exists (cached)
+(72/136) default.cfg already exists (cached)
+(73/136) default.cfg already exists (cached)
+(74/136) default.cfg.txt already exists (cached)
+(75/136) default.cfg already exists (cached)
+(76/136) client.cfg already exists (cached)
+(77/136) common.cfg already exists (cached)
+(78/136) default.cfg already exists (cached)
+(79/136) default.cfg already exists (cached)
+(80/136) xaerohud.txt already exists (cached)
+(81/136) architectury-api.pw.toml already exists (cached)
+(82/136) artifacts.pw.toml already exists (cached)
+(83/136) backpacked.pw.toml already exists (cached)
+(84/136) caelus.pw.toml already exists (cached)
+(85/136) byte.pw.toml already exists (cached)
+(86/136) yacl.json5 already exists (cached)
+(87/136) cloth-config.pw.toml already exists (cached)
+(88/136) charm-of-undying.pw.toml already exists (cached)
+(89/136) create-aeronautics.pw.toml already exists (cached)
+(90/136) create-curios-jetpack.pw.toml already exists (cached)
+(91/136) create-dragons-plus.pw.toml already exists (cached)
+(92/136) create-aquatic-ambitions.pw.toml already exists (cached)
+(93/136) create-enchantment-industry.pw.toml already exists (cached)
+(94/136) create-jetpack.pw.toml already exists (cached)
+(95/136) create-goggles.pw.toml already exists (cached)
+(96/136) create-ultimate-factory.pw.toml already exists (cached)
+(97/136) create.pw.toml already exists (cached)
+(98/136) formations-overworld.pw.toml already exists (cached)
+(99/136) formations.pw.toml already exists (cached)
+(100/136) createaddition.pw.toml already exists (cached)
+(101/136) ferritecore.pw.toml already exists (cached)
+(102/136) create_oxidized.pw.toml already exists (cached)
+(103/136) iron-chests.pw.toml already exists (cached)
+(104/136) immersive-portals-ipsable.pw.toml already exists (cached)
+(105/136) item-obliterator.pw.toml already exists (cached)
+(106/136) curios.pw.toml already exists (cached)
+(107/136) G.L.A.S.S Remastered already exists (validated)
+(108/136) kotlin-for-forge.pw.toml already exists (cached)
+(109/136) elytra-slot.pw.toml already exists (cached)
+(110/136) macaws-bridges.pw.toml already exists (cached)
+(111/136) keepcuriosinventory.pw.toml already exists (cached)
+(112/136) jei.pw.toml already exists (cached)
+(113/136) more-relics.pw.toml already exists (cached)
+(114/136) lithium.pw.toml already exists (cached)
+(115/136) necronomicon.pw.toml already exists (cached)
+(116/136) enchanted-witchcraft.pw.toml already exists (cached)
+(117/136) framework.pw.toml already exists (cached)
+(118/136) reliquified-twilight-forest.pw.toml already exists (cached)
+(119/136) geckolib.pw.toml already exists (cached)
+(120/136) stateobserver.pw.toml already exists (cached)
+(121/136) terralith.pw.toml already exists (cached)
+(122/136) trade-cycling.pw.toml already exists (cached)
+(123/136) vanillabackport.pw.toml already exists (cached)
+(124/136) xaeros-minimap.pw.toml already exists (cached)
+(125/136) modernfix.pw.toml already exists (cached)
+(126/136) xaeros-world-map.pw.toml already exists (cached)
+(127/136) the-twilight-forest.pw.toml already exists (cached)
+(128/136) yacl.pw.toml already exists (cached)
+(129/136) modopedia.pw.toml already exists (cached)
+(130/136) relics-mod.pw.toml already exists (cached)
+(131/136) baby-mobs.pw.toml already exists (cached)
+(132/136) platform.pw.toml already exists (cached)
+(133/136) reliquified-artifacts.pw.toml already exists (cached)
+(134/136) resourceful-lib.pw.toml already exists (cached)
+(135/136) sable.pw.toml already exists (cached)
+(136/136) sky-villages-forge.pw.toml already exists (cached)
+Finished successfully!
+[15:17:27.105] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.265, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
+[15:17:27.106] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS 
+[15:17:27.107] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Microsoft; OS Linux arch amd64 version 7.2.9-1-cachyos 
+[15:17:27.250] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
+[15:17:27.299] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/sponge-mixin-0.16.4+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
+[15:17:27.483] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.265:server] 
+[15:17:27.498] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.265-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-universal.jar]], reader: mod manifest] 
+[15:17:27.507] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.511] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.517] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "backpacked-neoforge-1.21.1-3.0.5.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.520] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caelus-neoforge-7.0.1+1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.523] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "charmofundying-neoforge-9.1.0+1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.525] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.534] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.536] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.2.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.538] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-enchantment-industry-2.3.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.539] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_aquatic_ambitions-1.21.1-2.0.2.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.541] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_jetpack-forge-5.1.2.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.542] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_jetpack_curios-1.2.0-neoforge-1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.543] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_oxidized-0.1.3.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.544] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.547] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createaddition-1.5.10.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.549] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreateDragonsPlus-1.10.0b.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.550] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "creategoggles-1.21.1-6.1.1-[NEOFORGE].jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.551] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.552] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elytraslot-neoforge-9.0.2+1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.554] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enchanted-neoforge-1.21.1-4.2.7.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.558] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.559] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "formations-1.0.4-neoforge-mc1.21.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.560] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "formationsoverworld-1.0.5-mc1.21+.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.561] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.562] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.8.4.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.563] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "glass-1.0.0-experimental.sable+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.565] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersive-portals-sable-compat-0.5.0+ip-6.0.7.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.566] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.567] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.568] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.569] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "keepcuriosinventory-1.21.1-1.0.0.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.570] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.571] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithium-neoforge-0.15.3+mc1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.573] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.574] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.27.7+mc1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.575] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modopedia-neoforge-1.21.1-1.1.11.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.576] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "morerelics-1.7.7-1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.578] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Necronomicon-NeoForge-1.6.0+1.21.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.579] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OctoLib-NEOFORGE-0.6.2+1.21.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.579] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Platform-neoforge-1.21.1-1.3.3.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.581] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rarcompat-1.21-0.9.7.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.583] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "relics-1.21.1-0.10.7.8.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.585] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reliquified_twilight_forest-1.21.1-0.5.3.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.586] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.588] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.6.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.589] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SkyVillages-1.0.6-1.21.x-neoforge-release.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.590] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "stateobserver-neoforge-1.21.1-1.6.4.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.591] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_1.21.x_v2.5.8.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.592] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trade-cycling-neoforge-1.21.1-1.0.18.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.595] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.8.3345-universal.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.597] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "VanillaBackport-neoforge-1.21.1-1.1.7.4.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.599] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerominimap-neoforge-1.21.1-25.3.13.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.600] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaeroworldmap-neoforge-1.21.1-1.40.16.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:27.601] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:17:28.098] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 41 dependencies adding them to mods collection 
+[15:17:28.098] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.5.jar" [parent: neoforge-21.1.265-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.265.jar" [parent: neoforge-21.1.265-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: charmofundying-neoforge-9.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerolib-neoforge-1.21.1-1.1.15.jar" [parent: xaerominimap-neoforge-1.21.1-25.3.13.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.8.3345.jar" [parent: twilightforest-1.21.1-4.8.3345-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: CreateDragonsPlus-1.10.0b.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flightlib-neoforge-3.2.1.jar" [parent: create_jetpack-forge-5.1.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.1.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:17:28.099] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.2.jar" [parent: OctoLib-NEOFORGE-0.6.2+1.21.jar, locator: jarinjar] 
+[15:17:28.101] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.8 (architectury)
+		Artifacts 13.2.1 (artifacts)
+		Backpacked 3.0.5 (backpacked)
+		Caelus API 7.0.1+1.21.1 (caelus)
+		Charm of Undying 9.1.0+1.21.1 (charmofundying)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		conditional mixin 0.6.4 (conditional_mixin)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.2 (aeronautics)
+		Create Aeronautics 1.3.2 (aeronautics_bundled)
+		Create Aquatic Ambitions 2.0.2 (create_aquatic_ambitions)
+		Create Crafts & Additions 1.5.10 (createaddition)
+		Create Goggles 6.1.1 (creategoggles)
+		Create Jetpack 5.1.2 (create_jetpack)
+		Create Offroad 1.3.2 (offroad)
+		Create Simulated 1.3.2 (simulated)
+		Create: Dragons Plus 1.10.0b (create_dragons_plus)
+		Create: Enchantment Industry 2.3.1 (create_enchantment_industry)
+		Create: Jetpack Curios 1.2.0 (create_jetpack_curios)
+		Create: Oxidized 0.1.3 (create_oxidized)
+		Create: Ultimate Factory 2.2.4 (create_ultimate_factory)
+		Curios API 9.5.1+1.21.1 (curios)
+		Elytra Slot 9.0.2+1.21.1 (elytraslot)
+		Enchanted 4.2.7 (enchanted)
+		ExpandAbility 12.0.0 (expandability)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flight Lib 3.2.1 (flightlib)
+		Flywheel 1.0.6 (flywheel)
+		Formations 1.0.4 (formations)
+		Formations Overworld 1.0.5 (formationsoverworld)
+		Framework 0.13.11 (framework)
+		GeckoLib 4 4.8.4 (geckolib)
+		GLASS Remastered 1.0.0-experimental.sable+1.21.1 (glass)
+		Immersive Portals x Sable 0.5.0 (immersive_portals_core)
+		Iron Chests 1.21-neoforge-16.0.7 (ironchest)
+		Item Obliterator 2.3.0 (item_obliterator)
+		Just Enough Items 19.27.0.336 (jei)
+		KeepCuriosInventory 1.21.1-1.0.0 (keepcuriosinventory)
+		Kotlin For Forge 5.11.0 (kotlinforforge)
+		Lithium 0.15.3+mc1.21.1 (lithium)
+		Macaw's Bridges 3.1.2 (mcwbridges)
+		Minecraft 1.21.1 (minecraft)
+		ModernFix 5.27.7+mc1.21.1 (modernfix)
+		Modopedia 1.1.11 (modopedia)
+		More Relics 1.7.7 (morerelics)
+		Necronomicon 1.6.0 (necronomicon)
+		NeoForge 21.1.265 (neoforge)
+		OctoLib 0.6.2 (octolib)
+		Platform 1.3.3 (platform)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		RAR-Compat 0.9.7 (rarcompat)
+		Relics 0.10.7.8 (relics)
+		Reliquified Twilight Forest 0.5.3 (reliquified_twilight_forest)
+		Resourceful Lib 3.0.12 (resourcefullib)
+		Sable 2.0.6 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Sky Villages 1.0.6 (skyvillages)
+		SpectreLib 0.17.2+1.21 (spectrelib)
+		StateObserver 1.6.4 (stateobserver)
+		Terralith 2.5.8 (terralith)
+		The Twilight Forest 4.8.3345 (twilightforest)
+		Trade Cycling 1.21.1-1.0.18 (trade_cycling)
+		VanillaBackport 1.1.7.4 (vanillabackport)
+		Veil 4.3.2 (veil)
+		Xaero's Minimap 25.3.13 (xaerominimap)
+		Xaero's World Map 1.40.16 (xaeroworldmap)
+		XaeroLib 1.1.15 (xaerolib)
+		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3) 
+[15:17:28.274] [main/INFO] [loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap] 
+[15:17:29.007] [main/INFO] [mixin/]: Compatibility level set to JAVA_17 
+[15:17:29.008] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[15:17:29.054] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
+[15:17:29.069] [main/WARN] [mixin/]: Reference map 'elytraslot.refmap.json' for elytraslot-integrations.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.070] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.083] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'. 
+[15:17:29.083] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'. 
+[15:17:29.083] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'. 
+[15:17:29.083] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'. 
+[15:17:29.083] [main/INFO] [Lithium/]: Loaded configuration file for Lithium: 148 options available, 4 override(s) found 
+[15:17:29.087] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.088] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.089] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.123] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.7+mc1.21.1: 88 options available, 0 override(s) found 
+[15:17:29.124] [main/INFO] [ModernFix/]: Applying Nashorn fix 
+[15:17:29.126] [main/WARN] [mixin/]: Reference map 'modernfix.refmap.json' for modernfix-modernfix.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.127] [main/WARN] [mixin/]: Reference map 'modopedia.refmap.json' for modopedia.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.127] [main/WARN] [mixin/]: Reference map 'modopedia.refmap.json' for modopedia.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.133] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.133] [main/WARN] [mixin/]: Reference map 'relics.refmap.json' for relics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.170] [main/WARN] [mixin/]: Reference map '' for keepcuriosinventory.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.171] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.171] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.171] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.175] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.179] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[15:17:29.179] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[15:17:29.180] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.180] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.180] [main/WARN] [mixin/]: Reference map 'backpacked.refmap.json' for backpacked.common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.181] [main/WARN] [mixin/]: Reference map 'reliquified_twilight_forest.refmap.json' for reliquified_twilight_forest.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.190] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.191] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.191] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.191] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.192] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.192] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.192] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.192] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.193] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.193] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.193] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.193] [main/WARN] [mixin/]: Reference map 'charmofundying.refmap.json' for charmofundying.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.194] [main/WARN] [mixin/]: Reference map 'rarcompat.refmap.json' for rarcompat.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.194] [main/WARN] [mixin/]: Reference map 'enchanted.refmap.json' for enchanted.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.195] [main/WARN] [mixin/]: Reference map 'enchanted.refmap.json' for enchanted.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.195] [main/WARN] [mixin/]: Reference map 'stateobserver.refmap.json' for stateobserver.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.195] [main/WARN] [mixin/]: Reference map 'stateobserver.refmap.json' for stateobserver.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.195] [main/WARN] [mixin/]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:17:29.284] [main/INFO] [Lithium/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [sable]) disables it and children 
+[15:17:29.285] [main/INFO] [Lithium/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySectionMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [sable]) disables it and children 
+[15:17:29.285] [main/INFO] [Lithium/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySelectorMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [sable]) disables it and children 
+[15:17:29.286] [main/INFO] [Lithium/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [sable]) disables it and children 
+[15:17:29.314] [main/INFO] [Lithium/]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as rule 'mixin.world.chunk_access' (added by mods [sable]) disables it and children 
+[15:17:29.314] [main/INFO] [Lithium/]: Force-disabling mixin 'world.chunk_access.GenerationChunkHolderAccessor' as rule 'mixin.world.chunk_access' (added by mods [sable]) disables it and children 
+[15:17:29.315] [main/INFO] [Lithium/]: Force-disabling mixin 'world.chunk_access.LevelMixin' as rule 'mixin.world.chunk_access' (added by mods [sable]) disables it and children 
+[15:17:29.315] [main/INFO] [Lithium/]: Force-disabling mixin 'world.chunk_access.ServerChunkCacheMixin' as rule 'mixin.world.chunk_access' (added by mods [sable]) disables it and children 
+[15:17:29.316] [main/INFO] [Lithium/]: Force-disabling mixin 'world.chunk_ticking.spread_ice.BiomeMixin' as rule 'mixin.world.chunk_ticking' (added by mods [sable]) disables it and children 
+[15:17:29.320] [main/INFO] [Lithium/]: Force-disabling mixin 'world.tick_scheduler.LevelChunkTicksMixin' as rule 'mixin.world.tick_scheduler' (added by mods [sable]) disables it and children 
+[15:17:29.519] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER 
+[15:17:29.524] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER) 
+[15:17:29.524] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found morerelics.mixins.json:AbstractClientPlayerMixin from mod morerelics 
+[15:17:29.524] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER 
+[15:17:29.525] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/player/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER) 
+[15:17:29.525] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.player.PlayerRenderer was not found morerelics.mixins.json:PlayerRendererMixin from mod morerelics 
+[15:17:29.559] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER 
+[15:17:29.559] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER) 
+[15:17:29.559] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics 
+[15:17:29.560] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/FeedingUpgradeWrapper (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.upgrades.feeding.FeedingUpgradeWrapper) 
+[15:17:29.560] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.upgrades.feeding.FeedingUpgradeWrapper was not found relics.mixins.json:compat.sophisticatedbackpacks.FeedingUpgradeWrapperMixin from mod relics 
+[15:17:29.561] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/upgrades/UpgradeWrapperBase (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.upgrades.UpgradeWrapperBase) 
+[15:17:29.561] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.upgrades.UpgradeWrapperBase was not found relics.mixins.json:compat.sophisticatedbackpacks.UpgradeWrapperBaseAccessor from mod relics 
+[15:17:29.595] [main/WARN] [mixin/]: Error loading class: jeresources/api/util/BiomeHelper (java.lang.ClassNotFoundException: jeresources.api.util.BiomeHelper) 
+[15:17:29.596] [main/WARN] [mixin/]: Error loading class: yalter/mousetweaks/Main (java.lang.ClassNotFoundException: yalter.mousetweaks.Main) 
+[15:17:29.736] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/crumbling/CrumblingRenderer (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.crumbling.CrumblingRenderer) 
+[15:17:29.736] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/compile/ProgramCompiler (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.compile.ProgramCompiler) 
+[15:17:29.737] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/QuadConverter (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.QuadConverter) 
+[15:17:29.754] [main/WARN] [mixin/]: Error loading class: dev/ryanhcode/sable/command/argument/SubLevelSelector (java.lang.ClassNotFoundException: dev.ryanhcode.sable.command.argument.SubLevelSelector) 
+[15:17:29.755] [main/WARN] [mixin/]: Error loading class: net/blay09/mods/waystones/api/WaystoneDelegate (java.lang.ClassNotFoundException: net.blay09.mods.waystones.api.WaystoneDelegate) 
+[15:17:29.823] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key) 
+[15:17:29.842] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval) 
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[15:17:29] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[15:17:32] [main/INFO] [minecraft/Bootstrap]: ModernFix reached bootstrap stage (6.138 s after launch)
+[15:17:33] [main/WARN] [mixin/]: Method overwrite conflict for getTemperature in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[15:17:35] [main/INFO] [minecraft/Bootstrap]: Vanilla bootstrap took 3390 milliseconds
+[15:17:35] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[15:17:35] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[15:17:35] [modloading-worker-0/INFO] [tw.be.BeanContext/]: Starting Bean Context
+[15:17:35] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[15:17:35] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[15:17:35] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.265, for MC 1.21.1
+[15:17:35] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[15:17:35] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[15:17:35] [modloading-worker-0/INFO] [iPortal/]: Loading Immersive Portals config
+[15:17:35] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/home/jefno/minecraft-packs/Portals-1.21.1/server/config/yacl.json5'
+[15:17:35] [modloading-worker-0/INFO] [be.fl.ex.ExpandAbility/]: ExpandAbility here, who dis?
+[15:17:36] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.co.HudMod/]: Registering common data for channel xaerominimap:main!
+[15:17:36] [modloading-worker-0/INFO] [iPortal/]: iPortal Config Applied
+[15:17:36] [modloading-worker-0/INFO] [iPortal/]: Immersive Portals Mod Initializing
+[15:17:36] [modloading-worker-0/INFO] [qo.im.co.ne.ImmPtlNetworkConfig/]: Immersive Portals Core version 1.0.0
+[15:17:36] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[15:17:36] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Registering common data for channel xaerolib:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[15:17:36] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[15:17:36] [modloading-worker-0/INFO] [iPortal/]: Dimensional Threading is not present
+[15:17:36] [modloading-worker-0/INFO] [iPortal/]: Gravity API is not present
+[15:17:36] [modloading-worker-0/INFO] [tw.be.BeanContext/]: Bean Context loaded in 502 ms
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: cgitems
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
+[15:17:36] [modloading-worker-0/INFO] [de.ry.sa.Sable/]: Sable loaded!
+[15:17:36] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
+[15:17:37] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading XaeroLib common 1/2!
+[15:17:37] [modloading-sync-worker/INFO] [necronomicon/]: File exists, reading config for elocindev.item_obliterator.neoforge.config.ConfigEntries.
+[15:17:37] [modloading-sync-worker/INFO] [necronomicon/]: Config for elocindev.item_obliterator.neoforge.config.ConfigEntries read successfully.
+[15:17:37] [modloading-sync-worker/INFO] [el.it.ne.ItemObliterator/]: Loaded NeoForge Item Obliterator config.
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpack for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpacks for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:cosmetic_backpack for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:selected_backpack for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlockable_backpack_slots for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:immortal_cooldown for minecraft:player
+[15:17:37] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpack_scale for minecraft:player
+[15:17:37] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading XaeroLib server 1/2!
+[15:17:37] [modloading-worker-0/INFO] [xa.ma.se.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[15:17:37] [modloading-worker-0/INFO] [xa.mi.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[15:17:37] [modloading-sync-worker/INFO] [xa.ma.se.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[15:17:37] [modloading-sync-worker/INFO] [xa.li.XaeroLib/]: Loading XaeroLib common 2/2!
+[15:17:37] [modloading-sync-worker/INFO] [xa.li.XaeroLib/]: Loading XaeroLib server 2/2!
+[15:17:37] [modloading-sync-worker/INFO] [xa.mi.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[15:17:37] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_jetpack] Starting version check at https://api.modrinth.com/updates/create-jetpack/forge_updates.json?neoforge=only
+[15:17:37] [modloading-worker-0/INFO] [co.mr.cr.CreateAddition/]: Create Crafts & Additions Initialized!
+[15:17:38] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:17:38] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
+[15:17:38] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_jetpack] Found status: OUTDATED Current: 5.1.2 Target: 5.2.1
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.265
+[15:17:38] [main/INFO] [co.si.cr.Create/]: Created 302 recipes which will be injected into the game
+[15:17:38] [main/INFO] [co.si.cr.Create/]: Created 4 tags which will be injected into the game
+[15:17:38] [main/INFO] [pl.dr.cr.da.ru.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@2ee58ed1] for runtime resource [create_dragons_plus:runtime]
+[15:17:38] [main/INFO] [pl.dr.cr.da.ru.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@2ee58ed1 finished after 21 ms
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [mcwbridges] Found status: AHEAD Current: 3.1.2 Target: null
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/neoforge/trade_cycling
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [trade_cycling] Found status: OUTDATED Current: 1.21.1-1.0.18 Target: 1.21.1-1.0.23
+[15:17:38] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[15:17:39] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[15:17:39] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/all.json cleared by mod/rarcompat, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:17:39] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/belt.json cleared by mod/rarcompat, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:17:39] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/hands.json cleared by mod/rarcompat, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:17:39] [main/INFO] [minecraft/RecipeManager]: Loaded 4605 recipes
+[15:17:39] [main/INFO] [minecraft/AdvancementTree]: Loaded 3637 advancements
+[15:17:39] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[15:17:39] [main/INFO] [Curios API/]: Loaded 11 curio entities
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:cogwheel'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:bamboo_basket'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:turtle_shell'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:cardboard_box'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:classic'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:trash_can'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:standard'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:end_crystal'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:vintage'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:piglin_pack'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:wandering_bag'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:rocket'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:mini_chest'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:sheep_plush'
+[15:17:39] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:honey_jar'
+[15:17:39] [main/WARN] [ModernFix/]: Initial datapack load took 1.504 s
+[15:17:39] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[15:17:39] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[15:17:39] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[15:17:39] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[15:17:39] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[15:17:39] [Server thread/INFO] [de.ry.sa.Sable/]: Adding UDP server channel future
+[15:17:39] [Netty Epoll Server IO #0/INFO] [de.ry.sa.Sable/]: Server UDP channel active
+[15:17:39] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[15:17:39] [Server thread/WARN] [minecraft/DedicatedServer]: **** FAILED TO BIND TO PORT!
+[15:17:39] [Server thread/WARN] [minecraft/DedicatedServer]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[15:17:39] [Server thread/WARN] [minecraft/DedicatedServer]: Perhaps a server is already running on that port?
+[15:17:39] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:671) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[15:17:40] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID bef56c6d-d1e5-447a-88f1-89f4b7c4d8d9
+[15:17:40] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: /home/jefno/minecraft-packs/Portals-1.21.1/server/crash-reports/crash-2026-11-06_15.17.40-server.txt
+[15:17:40] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[15:17:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[15:17:40] [Server thread/ERROR] [minecraft/MinecraftServer]: Exception stopping the server
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getWorldBorder()" because "serverlevel2" is null
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:557) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:622) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:567) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,re:classloading,pl:mixin:APP:imm_ptl.mixins.json:common.MixinDedicatedServer from mod immersive_portals_core,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:742) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23171!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:veil.network.mixins.json:NetworkMinecraftServerMixin from mod veil,pl:mixin:APP:veil.scheduler.mixins.json:MinecraftServerMixin from mod veil,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:APP:sable.mixins.json:udp.MinecraftServerMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:imm_ptl.mixins.json:common.MixinMinecraftServer from mod immersive_portals_core,pl:mixin:APP:imm_ptl.mixins.json:common.portal_generation.MixinMinecraftServer_P from mod immersive_portals_core,pl:mixin:APP:imm_ptl_peripheral.mixins.json:common.dim_stack.MixinMinecraftServer_DimStack_CVB from mod immersive_portals_core,pl:mixin:APP:q_misc_util.mixins.json:MixinMinecraftServer_Misc from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerHeartbeatMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplServerStopCleanupMixin from mod immersive_portals_core,pl:mixin:APP:ipl_sable.mixins.json:IplHostingLevelTickRedirectMixin from mod immersive_portals_core,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[15:17:40] [Server thread/INFO] [Framework/]: Unloading server configs...
+[15:17:40] [Server thread/INFO] [Framework/]: Finished unloading server configs
+EXIT 0

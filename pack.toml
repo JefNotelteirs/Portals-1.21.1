@@ -1,0 +1,13 @@
+name = "Portals 1.21.1"
+author = "JefNo"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "01f5c24ad56f375204ac81a63aaf523e2930e68504d924b8d56ce2d7a821ff53"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

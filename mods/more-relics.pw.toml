@@ -1,0 +1,13 @@
+name = "More Relics"
+filename = "morerelics-1.7.7-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NmYBBHLU/versions/xmL9iQXg/morerelics-1.7.7-1.21.1.jar"
+hash-format = "sha512"
+hash = "86b057eb467853641cc7726daaf65ff6df74beafd7e99e8754536bbb46974c69f070613f83e297847f4a2ae3eaccaf6844b8277c1b9e1ea7e5f4f21fae653f56"
+
+[update]
+[update.modrinth]
+mod-id = "NmYBBHLU"
+version = "xmL9iQXg"

@@ -1,0 +1,6 @@
+server/
+evidence/
+.git/
+.gitignore
+README.md
+*.log
