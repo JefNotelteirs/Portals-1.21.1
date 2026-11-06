@@ -521,7 +521,7 @@ metafile = true
 
 [[files]]
 file = "mods/onechunk-neoforge-1.21.1-1.0.0.jar"
-hash = "1a2c16b87ead199d1c2e9c373e047895a3799a2a0de457d493f0d78c1579c314"
+hash = "e06b4da541cf0ee6f12a7ab349b108c23edac6e689ecd4d20b3ff6d0854acc79"
 
 [[files]]
 file = "mods/platform.pw.toml"
