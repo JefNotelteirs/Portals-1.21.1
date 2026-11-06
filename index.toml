@@ -119,7 +119,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "f0aa35028d210e4c3b87e3029520dea9ead7db9d639e97faad2db374f6a9b2c1"
+hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
@@ -174,7 +174,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-relics.pw.toml"
-hash = "a44c7270e4e69c68b29f8744fbb212033b6ea1c1337170754a3dfcc767a07f25"
+hash = "2274efa72c1cfd2c57068dc8a0780ecda9ac1dae941c230d7c4689927a28c61a"
 metafile = true
 
 [[files]]
@@ -183,17 +183,12 @@ hash = "e06b4da541cf0ee6f12a7ab349b108c23edac6e689ecd4d20b3ff6d0854acc79"
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
+hash = "98ae27f0381f08ada1be2336d2afc106d8cfa99057e6262556570e5877d9b094"
 metafile = true
 
 [[files]]
 file = "mods/reliquified-artifacts.pw.toml"
-hash = "b623c5f5778b08b99e86a6f9c93b7051ba78ce853309db897c76410365702d62"
-metafile = true
-
-[[files]]
-file = "mods/reliquified-twilight-forest.pw.toml"
-hash = "336a676245f400070c38e06443ba65f664041bfaff5a0dca677dcd10a37d6aad"
+hash = "6332130dba21e2ee04b9fae4ecc88a652a5bb39fc7423f14723362969badece5"
 metafile = true
 
 [[files]]
@@ -204,4 +199,9 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true
