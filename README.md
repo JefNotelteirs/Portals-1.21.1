@@ -67,7 +67,7 @@ Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
 `--bootstrap-no-update` is there because the bootstrap's self-update hit a GitHub API 403
 (rate limit) during setup. `packwiz-installer.jar` is already in the instance folder.
-The mods were pre-synced into the instance (55 jars, including OneChunk). Edit the pack, run
+The mods were pre-synced into the instance (45 jars, including OneChunk). Edit the pack, run
 `~/go/bin/packwiz refresh`, launch again, and the instance picks up the change.
 
 When the pack moves to GitHub later, swap the `file:///...` URL for the raw `pack.toml` URL,
@@ -106,8 +106,8 @@ Settings worth knowing:
   (`checkModInfoFromInternet` and `enableUpdateNotification` are false; the update notice would
   tell players to install the upstream build, which crashes with Sable).
 - `server.properties`: max 14 players, whitelist ON (add friends with `whitelist add <name>`),
-  difficulty normal, view distance 10, simulation distance 8, `allow-flight=true` (jetpacks and
-  airships would otherwise get players kicked), `max-tick-time=-1` (no watchdog kill during heavy
+  difficulty normal, view distance 10, simulation distance 8, `allow-flight=true` (airships
+  would otherwise get players kicked), `max-tick-time=-1` (no watchdog kill during heavy
   Create/portal ticks), spawn protection 0, command blocks on, port 25565.
 - `eula.txt` is set to true.
 - The test world was deleted after the boot tests (it had force-loaded chunks). The first real
@@ -119,7 +119,7 @@ on port 25591. `server.properties` is back on 25565.
 
 ## 4. Mod list
 
-55 jars. Everything from the PSY pack is kept unless listed below.
+45 jars. Everything from the PSY pack is kept unless listed below.
 
 ### Added
 
@@ -139,7 +139,6 @@ on port 25591. `server.properties` is back on 25565.
 | NeoForge | 21.1.219 | 21.1.265 | G.L.A.S.S needs `[21.1.249,)`. 21.1.265 is the newest 21.1 on maven. Every mod's `neoforge` range was re-checked and accepts it |
 | Sable | 1.2.2 | 2.0.6 | G.L.A.S.S declares `sable [2.0.6,3.0.0)`, which NeoForge enforces when Sable is present |
 | Create Aeronautics (bundles Simulated + Offroad) | 1.2.1 | 1.3.2 | Aeronautics 1.2.x is built for Sable 1.x; 1.3.2 needs Sable `[2.0.0,3.0.0)` |
-| Create: Oxidized 0.1.3 | CurseForge | Modrinth | Same file (same sha1). CurseForge blocks API downloads of it, so packwiz-installer could not fetch it headless |
 
 ### Dropped
 
@@ -151,17 +150,47 @@ on port 25591. `server.properties` is back on 25565.
 
 Create Aeronautics and Immersive Portals are both in. Nothing else was dropped.
 
+### Dropped later: every Create addon (Jef's request, Create is too strong)
+
+Only base Create and Create Aeronautics stay. Checked against the Aeronautics mods.toml files
+(the bundled jar holds aeronautics, offroad and simulated): their hard dependencies are only
+`create`, `sable`, `simulated` (bundled), `flywheel` (bundled inside Create) and NeoForge/Minecraft.
+None of the addons below is needed by Aeronautics.
+
+| Removed | Note |
+| --- | --- |
+| Create Crafts & Additions 1.5.10 | Create addon |
+| Create: Aquatic Ambitions 2.0.2 | Create addon |
+| Create: Dragons Plus 1.10.0b | Create addon (also only needed by Enchantment Industry) |
+| Create: Enchantment Industry 2.3.1 | Create addon |
+| Create Goggles 6.1.1 | Create addon |
+| Create Jetpack 5.1.2 | Create addon |
+| Create: Curios Jetpack & Backtank 1.2.0 | Create addon |
+| Create: Oxidized 0.1.3 | Create addon |
+| Create: Ultimate Factory 2.2.4 | Create addon |
+| Kotlin for Forge 5.11.0 | Orphaned library. Only Create Jetpack (and its bundled flightlib) declared it. A bytecode scan of every remaining jar found Kotlin references only in YetAnotherConfigLib's optional Kotlin DSL classes, which nothing calls |
+
+Kept libraries that were checked: Architectury (OctoLib, Sky Villages, Twilight Forest, Platform,
+Cloth Config, Resourceful Lib still use it), Resourceful Lib (Xaero's Minimap and World Map use it).
+Their configs were deleted from `~/minecraft-packs/Portals-1.21.1/config/` too.
+YetAnotherConfigLib has no dependant in the pack at all, but it was already like that in the PSY
+pack, so it was left in (open decision).
+
+Expected count before the change: 55 - 9 addons - Kotlin for Forge = 45. Actual: 45 jars on the
+server and in the Prism instance.
+
+Evidence: `~/minecraft-packs/Portals-1.21.1/evidence/boot8-no-create-addons-CLEAN.log`
+(packwiz sync deletes the removed jars, `Done (8.984s)!`, 256 Twilight Forest chunks generated,
+OneChunk island created and filled, 20.000 TPS in all 8 dimensions, clean stop).
+
 ### Full list (name, file, source)
 
 Libraries: Architectury API 13.0.8, ShatterLib/OctoLib 0.6.2, Caelus API 7.0.1, Cloth Config 15.0.140,
-Framework 0.13.11, GeckoLib 4.8.4, Kotlin for Forge 5.11.0, Necronomicon API 1.6.0, Platform 1.3.3,
+Framework 0.13.11, GeckoLib 4.8.4, Necronomicon API 1.6.0, Platform 1.3.3,
 Resourceful Lib 3.0.12, StateObserver 1.6.4, YetAnotherConfigLib 3.8.2, Curios API 9.5.1.
 
 Create: Create 6.0.10, Create Aeronautics 1.3.2 (with Simulated and Offroad), Sable 2.0.6
-(with Sable Companion and Veil), Create Crafts & Additions 1.5.10, Create: Aquatic Ambitions 2.0.2,
-Create: Dragons Plus 1.10.0b, Create: Enchantment Industry 2.3.1, Create Goggles 6.1.1,
-Create Jetpack 5.1.2, Create: Curios Jetpack & Backtank 1.2.0, Create: Oxidized 0.1.3,
-Create: Ultimate Factory 2.2.4.
+(with Sable Companion and Veil). No other Create addons (Jef: Create is strong enough on its own).
 
 Trinkets: Relics 0.10.7.8, Artifacts 13.2.1, Reliquified Artifacts (rarcompat) 0.9.7,
 Reliquified Twilight Forest 0.5.3, More Relics 1.7.7, Charm of Undying 9.1.0, Elytra Slot 9.0.2,
@@ -202,7 +231,7 @@ Looked at and rejected:
 ## 6. Keep inventory: curios slots only
 
 Rules: vanilla `keepInventory` stays **false**, so the main inventory, armor and offhand drop on
-death. Items in Curios slots (Relics, Artifacts, charms, elytra slot, jetpack curio) are kept.
+death. Items in Curios slots (Relics, Artifacts, charms, elytra slot) are kept.
 
 How it works (checked in the jars, not just the config):
 
@@ -302,7 +331,8 @@ All in `~/minecraft-packs/Portals-1.21.1/evidence/` (ANSI colours stripped):
    host IPSable runs without its patched physics natives.
 5. **Optional extra:** the "Immersive Portals & Twilight Forest Compatibility" datapack on Modrinth
    makes Twilight portals see-through. Not added, untested.
-6. **Publishing:** this folder is a local git repo only. Pushing it to GitHub (like the other
+6. **YetAnotherConfigLib** has no dependant in the pack. Remove it, or keep it for a future mod?
+7. **Publishing:** this folder is a local git repo only. Pushing it to GitHub (like the other
    packs) and pointing the Prism pre-launch URL at the raw `pack.toml` is up to Jef.
 
 ## 10. Maintaining the pack

@@ -41,58 +41,6 @@ file = "config/create-server.toml"
 hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
 
 [[files]]
-file = "config/create_aquatic_ambitions-server.toml"
-hash = "4e839d9ae6028a25a8b64995e70c230b219312389a5ce3f2a7050172ca779fde"
-
-[[files]]
-file = "config/create_dragons_plus-client.toml"
-hash = "a3888f58a510d8e33e3caf8444af00c726f895f75f1d85f5b99c20c6ca420290"
-
-[[files]]
-file = "config/create_dragons_plus-common.toml"
-hash = "0f42cb765b27d07df5a406079dfee12f6154761e7a4fbfa5337644b530ca7853"
-
-[[files]]
-file = "config/create_dragons_plus-server.toml"
-hash = "690d2f38456d0c23d3ed246e50251e8ac9f6a465f96dc7e58cda234256f4f189"
-
-[[files]]
-file = "config/create_dragons_plus-simulated-extension-common.toml"
-hash = "9f68929cb7e3699215c0008b158d0425858b3ad065cba76ce1f4256369754982"
-
-[[files]]
-file = "config/create_dragons_plus-simulated-extension-server.toml"
-hash = "5c306215eb2b3afd9d4418f76ad6886921241cfbc5dd6e8e1c74976e61c9b8d4"
-
-[[files]]
-file = "config/create_enchantment_industry-client.toml"
-hash = "a12fe6bf0d2f2b1c1a4ad05ab17cbd34f9fdf1dbcef20085f6b48a4dcf94d242"
-
-[[files]]
-file = "config/create_enchantment_industry-server.toml"
-hash = "3bb1295b60bcfee0d818b20490e67ec7e43f5c04fb397ebba0a6d0ae87d3b4c5"
-
-[[files]]
-file = "config/create_jetpack-client.toml"
-hash = "f1ff4ff046a25fed273e475f244a5ce965796c262e4c9999a01241a595862e52"
-
-[[files]]
-file = "config/create_jetpack-common.toml"
-hash = "18123f737beb0fc6d73324aa8229863097fe273526b56bcae8f0800f6408a0a1"
-
-[[files]]
-file = "config/createaddition-common.toml"
-hash = "0824e47bfbf7fdc4b43e89e5466fc7acc8e1cb44aa5b0d54ce6f709cbb076c14"
-
-[[files]]
-file = "config/creategoggles-client.toml"
-hash = "a006214121ced9bf7cb1737fb0d15cf4acbda45e2ee173e1e32e6b848c8d31f9"
-
-[[files]]
-file = "config/creategoggles-common.toml"
-hash = "eab90898a8cff0ada8ebf541433079f5794141bf5195d953a25b9180f082fe18"
-
-[[files]]
 file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
@@ -365,53 +313,8 @@ hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
-file = "mods/create-aquatic-ambitions.pw.toml"
-hash = "04d77085a95a9c684abed02b1fbdd1b0252c2d440a4f26da84bbbf50a9b5b7d1"
-metafile = true
-
-[[files]]
-file = "mods/create-curios-jetpack.pw.toml"
-hash = "4d4804b4b09a1e8df068f465cca9b07b818ee6d6c2c061269e42b2cea9749be0"
-metafile = true
-
-[[files]]
-file = "mods/create-dragons-plus.pw.toml"
-hash = "8418d9b91e297fe19735fc0f85dcd520b6ee19b22c0662b313bc58352784b20e"
-metafile = true
-
-[[files]]
-file = "mods/create-enchantment-industry.pw.toml"
-hash = "37c21deaf7e65569fa9dcc59a477a55ab8937153c591f1bc4d6249de9582044f"
-metafile = true
-
-[[files]]
-file = "mods/create-goggles.pw.toml"
-hash = "9b831e115993c10d0e8b3d187584393685ba0abfaa3ab3ca6ee9dfdf6e1a8e70"
-metafile = true
-
-[[files]]
-file = "mods/create-jetpack.pw.toml"
-hash = "ad89085cff15370c0a8bda81c22a3a040204c71f1ee170a458a949295dc219bf"
-metafile = true
-
-[[files]]
-file = "mods/create-ultimate-factory.pw.toml"
-hash = "b8761149eda05aa09fa90b3a8e0cf797faba43c08e42557cafcd55baa2c20cb3"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
-metafile = true
-
-[[files]]
-file = "mods/create_oxidized.pw.toml"
-hash = "7e9e3d04c85d0a94a449245bae9239658e0fdeaf53043145c70d54070a38b9b0"
-metafile = true
-
-[[files]]
-file = "mods/createaddition.pw.toml"
-hash = "7aa0060e5df8631d27a789d73eb57d67c611b95be5bce4175810351e9479ae60"
 metafile = true
 
 [[files]]
@@ -482,11 +385,6 @@ metafile = true
 [[files]]
 file = "mods/keepcuriosinventory.pw.toml"
 hash = "308541d79e063bc3fe777cf2549b10fd0a88b060a0d036850036d66d187cfe5e"
-metafile = true
-
-[[files]]
-file = "mods/kotlin-for-forge.pw.toml"
-hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
 metafile = true
 
 [[files]]
