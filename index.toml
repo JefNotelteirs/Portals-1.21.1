@@ -162,9 +162,8 @@ hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
 
 [[files]]
-file = "mods/glass-remastered.pw.toml"
-hash = "1605eb0d0609e23324f986e3932480c3dca91015a278c9dedfdaad24f26c2ae2"
-metafile = true
+file = "mods/glass-1.0.0-experimental.sable+1.21.1-neoforge-ipcompat.jar"
+hash = "f076d38ea2aeadc01ad29243077b3c5cc479504be724b398dd927a3152f2147a"
 
 [[files]]
 file = "mods/immersive-portals-ipsable.pw.toml"
