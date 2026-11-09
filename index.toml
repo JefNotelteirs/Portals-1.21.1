@@ -174,7 +174,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-relics.pw.toml"
-hash = "a44c7270e4e69c68b29f8744fbb212033b6ea1c1337170754a3dfcc767a07f25"
+hash = "2274efa72c1cfd2c57068dc8a0780ecda9ac1dae941c230d7c4689927a28c61a"
 metafile = true
 
 [[files]]
@@ -187,17 +187,12 @@ hash = "6fc382b8c7b6a34f5b662dc7f03e70ae840317d25b6957db7a087a0c50737737"
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
+hash = "98ae27f0381f08ada1be2336d2afc106d8cfa99057e6262556570e5877d9b094"
 metafile = true
 
 [[files]]
 file = "mods/reliquified-artifacts.pw.toml"
-hash = "b623c5f5778b08b99e86a6f9c93b7051ba78ce853309db897c76410365702d62"
-metafile = true
-
-[[files]]
-file = "mods/reliquified-twilight-forest.pw.toml"
-hash = "336a676245f400070c38e06443ba65f664041bfaff5a0dca677dcd10a37d6aad"
+hash = "6332130dba21e2ee04b9fae4ecc88a652a5bb39fc7423f14723362969badece5"
 metafile = true
 
 [[files]]
@@ -208,6 +203,11 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
+file = "mods/trueuuid.pw.toml"
+hash = "3bc9931298a82fa0401161ab83c5bb1584424b404606eabda9f0ffcd66d083fa"
 metafile = true
 
 [[files]]

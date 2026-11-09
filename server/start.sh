@@ -11,7 +11,8 @@ JAVA="${JAVA:-$HOME/.local/share/PrismLauncher/java/java-runtime-delta/bin/java}
 # PACK_URL can point at a hosted pack.toml later; it defaults to the local checkout.
 PACK_URL="${PACK_URL:-file://$(cd .. && pwd)/pack.toml}"
 if [ "${SKIP_PACKWIZ:-0}" != "1" ]; then
-  "$JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-no-update -g -s server "$PACK_URL" || {
+  # IPv4 only: this host has no working IPv6 route, and downloads timed out without it.
+  "$JAVA" -Djava.net.preferIPv4Stack=true -jar packwiz-installer-bootstrap.jar --bootstrap-no-update -g -s server "$PACK_URL" || {
     echo "packwiz sync failed, not starting the server" >&2
     exit 1
   }

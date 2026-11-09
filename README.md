@@ -62,12 +62,12 @@ The instance already exists: `~/.local/share/PrismLauncher/instances/Portals 1.2
 Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
 ```
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-no-update -s client "file:///home/jefno/minecraft-packs/Portals-1.21.1/pack.toml"
+"$INST_JAVA" -Djava.net.preferIPv4Stack=true -jar packwiz-installer-bootstrap.jar --bootstrap-no-update -s client "file:///home/jefno/minecraft-packs/Portals-1.21.1/pack.toml"
 ```
 
 `--bootstrap-no-update` is there because the bootstrap's self-update hit a GitHub API 403
 (rate limit) during setup. `packwiz-installer.jar` is already in the instance folder.
-The mods were pre-synced into the instance (21 jars, including OneChunk and Pack Balance). Edit the pack, run
+The mods were pre-synced into the instance (21 jars, including OneChunk, Pack Balance and TrueUUID). Edit the pack, run
 `~/go/bin/packwiz refresh`, launch again, and the instance picks up the change.
 
 When the pack moves to GitHub later, swap the `file:///...` URL for the raw `pack.toml` URL,
@@ -105,6 +105,9 @@ Settings worth knowing:
   That internet check is also switched off in `~/minecraft-packs/Portals-1.21.1/config/immersive_portals.json`
   (`checkModInfoFromInternet` and `enableUpdateNotification` are false; the update notice would
   tell players to install the upstream build, which crashes with Sable).
+  The packwiz sync step in `start.sh` (and the Prism pre-launch command) uses the same flag: on
+  2026-11-09 the sync timed out on four Modrinth downloads without it
+  (`~/minecraft-packs/Portals-1.21.1/evidence/boot14a-packwiz-sync-TIMEOUT-before-ipv4-fix.log`).
 - `server.properties`: max 14 players, whitelist ON (add friends with `whitelist add <name>`),
   difficulty normal, view distance 10, simulation distance 8, `allow-flight=true` (airships
   would otherwise get players kicked), `max-tick-time=-1` (no watchdog kill during heavy
@@ -130,11 +133,10 @@ for was stripped out (see "Removed" below). The configs of removed mods were del
 | Create | 6.0.10 (bundles Flywheel 1.0.6, Ponder, Registrate) | CurseForge |
 | Create Aeronautics (bundled jar: Aeronautics, Simulated, Offroad) | 1.3.2 | Modrinth |
 | Sable | 2.0.6 (bundles Sable Companion, Veil) | Modrinth |
-| Relics | 0.10.7.8 (held back on purpose, see "Relics 0.12 trade-off" below) | CurseForge |
+| Relics | 0.12.11 (beta, newest) | Modrinth |
 | Artifacts | 13.2.5, newest (bundles ExpandAbility) | Modrinth |
-| More Relics | 1.7.7 (release built for Relics 0.10.7.8) | Modrinth |
-| Reliquified Twilight Forest | 0.5.3 | Modrinth |
-| Reliquified Artifacts (rarcompat) | 0.9.7 | CurseForge |
+| More Relics | 1.7.7-forRelics-0.12.8-1.0 (beta, the build for Relics 0.12) | Modrinth |
+| Reliquified Artifacts | 1.0.9 (beta; formerly rarcompat, mod id now `reliquified_artifacts`) | Modrinth |
 | The Twilight Forest | 4.8.3345 (newest NeoForge 1.21.1 build on CurseForge) | CurseForge |
 | KeepCuriosInventory | 1.0.0 | CurseForge |
 | Curios API | 9.5.1 (the duplicate 9.0.15 jar from PSY was dropped) | CurseForge |
@@ -144,43 +146,28 @@ for was stripped out (see "Removed" below). The configs of removed mods were del
 | OneChunk (custom) | 1.0.0, jar shipped in `mods/` (see section 11) | this repo |
 | When Dungeons Arise | 2.1.68, newest 1.21.1 NeoForge build. Declares only NeoForge, so no new dependency. Modrinth marks it server-only; it is set to both sides so singleplayer playtests get the dungeons too | Modrinth |
 | Pack Balance (custom) | 1.0.0, jar shipped in `mods/` (see section 12). Requires only Create; Aeronautics, Simulated, Offroad, Sable and Curios are optional for it and all present | this repo |
+| TrueUUID | 1.3.0, newest NeoForge 1.21.1 build. Both sides (its README: the same jar on client and server). Declares only NeoForge/Minecraft. See section 13 | Modrinth |
 
-### Relics 0.12 trade-off (open decision for Jef)
+### Relics 0.12 decision (made by Jef)
 
-Newest 1.21.1 NeoForge builds (checked 2026-11-06 on Modrinth and CurseForge):
+Jef chose Relics 0.12.11 over keeping Reliquified Twilight Forest. RTF 0.5.3 is the newest RTF build
+and it only works with Relics 0.10.x: it references 38 Relics classes that are gone in 0.11 and
+0.12, and with Relics 0.12.11 mod loading fails with
+`ClassNotFoundException: it.hurts.sskirillss.relics.init.EffectRegistry`
+(`~/minecraft-packs/Portals-1.21.1/evidence/boot10-relics-0.12.11-with-RTF-0.5.3-CRASH.log`).
+So RTF is removed; Twilight Forest itself stays. Branch `test/relics-0.12` was merged into `master`.
 
-| Mod | In the pack | Newest | Newest works with |
+| Mod | Before | Now | Constraint |
 | --- | --- | --- | --- |
 | Relics | 0.10.7.8 | 0.12.11 (beta) | |
-| Reliquified Artifacts (rarcompat) | 0.9.7 | 1.0.9 (beta, mod id is now `reliquified_artifacts`) | Relics `[0.12.3,)` and Artifacts exactly `[13.2.5]` |
-| More Relics | 1.7.7 | 1.7.7-forRelics-0.12.8-1.0 (beta) | Relics 0.12.8 (Modrinth pin); no Relics class it uses is missing in 0.12.11 |
-| Reliquified Twilight Forest | 0.5.3 | 0.5.3 (no newer build) | Relics 0.10.x only |
-| Artifacts | 13.2.5 | 13.2.5 | updated |
-| Twilight Forest | 4.8.3345 | 4.8.3345 | already newest |
+| Reliquified Artifacts | rarcompat 0.9.7 | 1.0.9 (beta) | needs Relics `[0.12.3,)` and Artifacts exactly `[13.2.5]` |
+| More Relics | 1.7.7 | 1.7.7-forRelics-0.12.8-1.0 (beta) | pinned to Relics 0.12.8 on Modrinth; every Relics class it uses exists in 0.12.11 |
+| Artifacts | 13.2.1 | 13.2.5 | newest |
+| Reliquified Twilight Forest | 0.5.3 | removed | no build for Relics 0.11/0.12 |
 
-Reliquified Twilight Forest has no build for Relics 0.11 or 0.12. It references 38 Relics
-classes that no longer exist in 0.11.16 or 0.12.11. Tested on the server with everything at the
-newest version: mod loading fails with
-`ClassNotFoundException: it.hurts.sskirillss.relics.init.EffectRegistry` from
-`reliquified_twilight_forest.mixins.json:ChainBlockMixin`
-(`~/minecraft-packs/Portals-1.21.1/evidence/boot10-relics-0.12.11-with-RTF-0.5.3-CRASH.log`).
-
-So the choice is:
-
-- **A. What is on `master` now:** Relics 0.10.7.8, rarcompat 0.9.7, More Relics 1.7.7 and
-  Reliquified Twilight Forest 0.5.3. Every requested mod stays; Relics stays on the older line.
-- **B. Ready on git branch `test/relics-0.12`** (commit f44a75e): Relics 0.12.11, Reliquified
-  Artifacts 1.0.9, More Relics 1.7.7-forRelics-0.12.8-1.0, Artifacts 13.2.5, without Reliquified
-  Twilight Forest. Boots clean (`~/minecraft-packs/Portals-1.21.1/evidence/boot11-relics-0.12.11-WITHOUT-RTF-clean.log`).
-  Costs: drops a requested mod, the two relic addons are betas, and the rarcompat mod id change
-  means items from the old one vanish in an existing world (no world exists yet).
-
-To switch to B: `git -C ~/minecraft-packs/Portals-1.21.1 merge test/relics-0.12`, then
-`~/go/bin/packwiz refresh`.
-
-Curios (9.5.1, newest for 1.21.1) and KeepCuriosInventory (1.0.0, only build) are unchanged.
-KeepCuriosInventory only patches Curios' own drop handler, so the Relics version does not matter
-to it; it applied cleanly in both A and B.
+The mod id change (`rarcompat` to `reliquified_artifacts`) would delete its items in an existing
+world; there is no world yet, so it costs nothing now. Curios 9.5.1 and KeepCuriosInventory 1.0.0
+are unchanged; KeepCuriosInventory only patches Curios' death-drop handler and applies cleanly.
 
 ### Libraries (4 jars) and why each one is there
 
@@ -189,7 +176,7 @@ them) and following only `required` dependencies.
 
 | Library | Version | Required by |
 | --- | --- | --- |
-| ShatterLib / OctoLib | 0.6.2 | Relics, rarcompat and Reliquified Twilight Forest (all declare `octolib` required) |
+| ShatterLib / OctoLib | 0.6.2 | Relics 0.12.11 and Reliquified Artifacts 1.0.9 (both declare `octolib` required) |
 | Architectury API | 13.0.8 | OctoLib (declares `architectury` required) |
 | Framework | 0.13.11 | Backpacked (declares `framework` required) |
 | Cloth Config API | 15.0.140 | Immersive Portals. Its mods.toml does not declare it, but the code does need it: `IPConfig`, `IPModMain` and `IPGlobal` use Cloth's AutoConfig, and the Modrinth page lists it as required (upstream issue #21 is the `NoClassDefFoundError` you get without it). Artifacts also references Cloth for its config screen |
@@ -224,30 +211,30 @@ Architectury for it, and all four are in.
   Resourceful Lib, StateObserver.
 
 Counts: 55 jars before the Create cleanup, 45 after it, 19 after the strip, 20 with When Dungeons Arise,
-**21 now** with Pack Balance (expected 21, actual 21 on the server and in Prism). The strip itself was: expected 19, actual 19 on the
+21 with Pack Balance,
+**21 now** after the Relics 0.12 merge (-1 RTF) and TrueUUID (+1) (expected 21, actual 21 on the
+server and in Prism). The strip itself was: expected 19, actual 19 on the
 server and in the Prism instance). Evidence:
 `~/minecraft-packs/Portals-1.21.1/evidence/boot9-minimal-19-mods-CLEAN.log`.
 
 `~/go/bin/packwiz list` in `~/minecraft-packs/Portals-1.21.1` prints the live list.
 
-## 5. Relics / Artifacts addons (picked 2)
+## 5. Relics / Artifacts addons
 
 The rule was "tasteful, not over the top": no gear packs that add dozens of overpowered items.
 
 Picked:
 
-- **Reliquified Twilight Forest 0.5.3**. Adds a few
-  relics that drop from Twilight Forest bosses and copy one ability of that boss. Gated behind
-  boss fights, ties two pillars of the pack together, uses the normal Relics levelling.
-- **More Relics 1.7.7**. A curated set of extra relics in the same Relics system. The 1.7.7
-  release is the one built for Relics 0.10.7.8 (the version in this pack); the newer beta line is
-  for Relics 0.12.8.
+- **More Relics** (now 1.7.7-forRelics-0.12.8-1.0). A curated set of extra relics in the same
+  Relics system.
+- **Reliquified Twilight Forest** was picked at first (boss-drop relics from Twilight Forest) and
+  later removed: it has no build for Relics 0.12 (see section 4).
 
 Looked at and rejected:
 
 - Relics: Sable Compat: no-op on this Relics version (see Dropped).
-- Create: Relics+ and Create: Relics Integration: their Modrinth versions require a newer Relics
-  build than 0.10.7.8, and Relics Integration replaces relic loot with crafting lines.
+- Create: Relics+ and Create: Relics Integration: Create addons (Jef removed all Create addons),
+  and Relics Integration replaces relic loot with crafting lines.
 - Compat Artifacts (100+ artifacts), L2 Artifacts (long RPG progression): too much.
 - Artifacts crafting: makes artifacts craftable, kills the exploration reward.
 
@@ -362,12 +349,25 @@ All in `~/minecraft-packs/Portals-1.21.1/evidence/` (ANSI colours stripped):
   filled, `keepInventory ... false`, 20.000 TPS in all 7 dimensions, clean stop. One harmless WDA
   line: `Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_arise:find_fishing_hut]`
   (upstream data issue, only two "find this structure" advancements).
+- `boot14a-packwiz-sync-TIMEOUT-before-ipv4-fix.log`: the sync step timed out on four Modrinth
+  downloads; fixed by adding `-Djava.net.preferIPv4Stack=true` to the sync call in `start.sh`.
+- `boot14-relics-0.12.11-WDA-packbalance-trueuuid-CLEAN.log` (+ `boot14-pack_balance_recipe_dump.txt`):
+  the current `master`, 21 jars. Key lines:
+  - `Finished successfully!` (sync), `TrueUUID NeoForge adapter loaded`, `Done (5.651s)!`
+  - `Marked 64 chunks in Twilight Forest ...`, `The nearest dungeons_arise:heavenly_rider is at [-1552, ~, 1616]`
+  - `Island created at chunk (200, 200)`, `Initial fill ... done` (OneChunk)
+  - `/packbalance dumprecipes`: crimsite/ochrum crushing and redstone filling still absent, gravel
+    splashing still flint only
+  - 20.000 TPS in all 7 dimensions, `Overall: 20.000 TPS (1.752 ms/tick)`, clean stop
+  - zero mixin or injection errors. New harmless warnings: `Ignoring unknown attribute
+    'forge:entity_gravity'` (a mob NBT key from the Forge era) and Reliquified Artifacts' tag
+    warnings (same as rarcompat's before)
 - `packwiz-sync.log`: server-side sync, `Finished successfully!`.
 - `installer-run.log`: NeoForge 21.1.265 server install, `The server installed successfully`.
 
 ## 9. Open decisions for Jef
 
-1. **Relics 0.12 vs Reliquified Twilight Forest** (section 4): stay on A (master) or merge B?
+1. **TrueUUID needs `online-mode=false`** (section 13). Not changed yet.
 2. **G.L.A.S.S vs Immersive Portals** (section 1): test it first. If it crashes, which one goes?
    Portals were a hard requirement, so the default answer is "untick G.L.A.S.S".
 3. **IPSable instead of official Immersive Portals.** Accept a one-person pre-release fork, or
@@ -501,3 +501,32 @@ recipe dump `~/minecraft-packs/Portals-1.21.1/evidence/boot13-pack_balance_recip
   registered in 13.2.5 (`artifacts/registry/ModItems`). The cap itself needs a player to test
   (its test commands are off by default and were left off).
 - Not tested in game: the drill cap (needs a contraption or ship) and the heart cap (needs a player).
+
+## 13. TrueUUID (account verification for offline-mode servers)
+
+Modrinth `trueuuid`, version 1.3.0+neoforge-1.21.1 (`trueuuid-1.3.0-neoforge-1.21.1.jar`).
+Hard dependencies: none besides NeoForge `[21.1.213,)` and Minecraft `[1.21.1,1.21.2)`. One mixin
+config (`trueuuid.mixins.json`), applied cleanly.
+
+Side: **both**. Its README says the same TrueUUID jar must be on the client and the server (the
+client answers the server's login challenge with its own Mojang session, so the access token never
+leaves the player's PC). It shows a small premium/offline badge in the HUD.
+
+**Server setting it needs: `online-mode=false`** in
+`~/minecraft-packs/Portals-1.21.1/server/server.properties`. The pack still has
+`online-mode=true`: it was not changed (Jef decides). Things to know when switching:
+
+- With `online-mode=true` vanilla already verifies everyone, so TrueUUID only loads
+  (`TrueUUID NeoForge adapter loaded`) and does nothing visible.
+- With `online-mode=false`, premium players keep their real UUID and skin through TrueUUID.
+  Defaults in `server/config/trueuuid-common.toml` (generated by the mod, not changed):
+  `allowOfflineOnFailure = true` (players without a Mojang session may still join, as offline),
+  `knownPremiumDenyOffline = true` and `allowOfflineForUnknownOnly = true` (a name that once logged
+  in as premium can never be reused offline). Set `allowOfflineOnFailure = false` to admit only
+  verified premium accounts.
+- The whitelist is on (`white-list=true`). Offline players get offline-mode UUIDs, so whitelist
+  entries for them must match those; verified premium players keep their normal UUID.
+- `enforce-secure-profile=true` is the vanilla default; check chat signing works with offline
+  mode in a real test, and set it to `false` if offline players get kicked for chat.
+- Known verified names are stored in `server/trueuuid-registry.json`.
+- Not tested: an actual login (needs a client).
