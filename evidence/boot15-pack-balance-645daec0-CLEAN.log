@@ -1,0 +1,390 @@
+Loading manifest file...
+Loading pack file...
+Loading MultiMC pack file...
+MultiMC not detected
+Checking local files...
+Modpack name: Portals 1.21.1
+Checking local files...
+Comparing new files...
+(0/1) Reconfigure optional mods?
+Validating existing files...
+(1/49) aeronautics-server.toml already exists (cached)
+(2/49) backpacked.augments.toml already exists (cached)
+(3/49) backpacked.backpack.toml already exists (cached)
+(4/49) backpacked.pickpocketing.toml already exists (cached)
+(5/49) backpacked.wandering_trader.toml already exists (cached)
+(6/49) backpacked.client.toml already exists (cached)
+(7/49) create-client.toml already exists (cached)
+(8/49) create-common.toml already exists (cached)
+(9/49) create-server.toml already exists (cached)
+(10/49) curios-common.toml already exists (cached)
+(11/49) curios-server.toml already exists (cached)
+(12/49) curios-client.toml already exists (cached)
+(13/49) flywheel-client.toml already exists (cached)
+(14/49) fml.toml already exists (cached)
+(15/49) immersive_portals.json already exists (cached)
+(16/49) keepcuriosinventory-common.toml already exists (cached)
+(17/49) neoforge-client.toml already exists (cached)
+(18/49) neoforge-common.toml already exists (cached)
+(19/49) neoforge-server.toml already exists (cached)
+(20/49) offroad-server.toml already exists (cached)
+(21/49) ponder-client.toml already exists (cached)
+(22/49) relics.yaml already exists (cached)
+(23/49) sable-client.toml already exists (cached)
+(24/49) sable-common.toml already exists (cached)
+(25/49) simulated-client.toml already exists (cached)
+(26/49) twilightforest-client.toml already exists (cached)
+(27/49) twilightforest-common.toml already exists (cached)
+(28/49) artifacts.pw.toml already exists (cached)
+(29/49) simulated-server.toml already exists (cached)
+(30/49) backpacked.pw.toml already exists (cached)
+(31/49) architectury-api.pw.toml already exists (cached)
+(32/49) cloth-config.pw.toml already exists (cached)
+(33/49) curios.pw.toml already exists (cached)
+(34/49) create-aeronautics.pw.toml already exists (cached)
+(35/49) create.pw.toml already exists (cached)
+(36/49) framework.pw.toml already exists (cached)
+(37/49) G.L.A.S.S Remastered already exists (cached)
+(38/49) immersive-portals-ipsable.pw.toml already exists (cached)
+(39/49) more-relics.pw.toml already exists (cached)
+(40/49) keepcuriosinventory.pw.toml already exists (cached)
+(41/49) byte.pw.toml already exists (cached)
+(42/49) relics-mod.pw.toml already exists (cached)
+(43/49) onechunk-neoforge-1.21.1-1.0.0.jar already exists (cached)
+(44/49) reliquified-artifacts.pw.toml already exists (cached)
+(45/49) sable.pw.toml already exists (cached)
+(46/49) the-twilight-forest.pw.toml already exists (cached)
+(47/49) trueuuid.pw.toml already exists (cached)
+(48/49) when-dungeons-arise.pw.toml already exists (cached)
+(49/49) Downloaded pack_balance-neoforge-1.21.1-1.0.0.jar
+Finished successfully!
+[15:07:09.299] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.265, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
+[15:07:09.301] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS 
+[15:07:09.301] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Microsoft; OS Linux arch amd64 version 7.2.9-1-cachyos 
+[15:07:09.373] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
+[15:07:09.402] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/sponge-mixin-0.16.4+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
+[15:07:09.558] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.265:server] 
+[15:07:09.569] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.265-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-universal.jar]], reader: mod manifest] 
+[15:07:09.573] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.576] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.5.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.580] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "backpacked-neoforge-1.21.1-3.0.5.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.582] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.586] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.588] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.2.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.589] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.590] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DungeonsArise-1.21.1-2.1.68-release.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.591] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.592] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "glass-1.0.0-experimental.sable+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.594] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersive-portals-sable-compat-0.5.0+ip-6.0.7.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.595] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "keepcuriosinventory-1.21.1-1.0.0.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.596] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "morerelics-1.7.7-forRelics-0.12.8-1.0-1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.597] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OctoLib-NEOFORGE-0.6.2+1.21.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.598] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "onechunk-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.599] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pack_balance-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.600] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "relics-1.21.1-0.12.11.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.601] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reliquified_artifacts-1.21.1-1.0.9.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.603] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.6.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.604] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trueuuid-1.3.0-neoforge-1.21.1.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.607] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.8.3345-universal.jar" [locator: {mods folder locator at /home/jefno/minecraft-packs/Portals-1.21.1/server/mods}, reader: mod manifest] 
+[15:07:09.912] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection 
+[15:07:09.912] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.5.jar" [parent: neoforge-21.1.265-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.8.3345.jar" [parent: twilightforest-1.21.1-4.8.3345-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.265.jar" [parent: neoforge-21.1.265-universal.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.5.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[15:07:09.913] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.2.jar" [parent: OctoLib-NEOFORGE-0.6.2+1.21.jar, locator: jarinjar] 
+[15:07:09.915] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.8 (architectury)
+		Artifacts 13.2.5 (artifacts)
+		Backpacked 3.0.5 (backpacked)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.2 (aeronautics)
+		Create Aeronautics 1.3.2 (aeronautics_bundled)
+		Create Offroad 1.3.2 (offroad)
+		Create Simulated 1.3.2 (simulated)
+		Curios API 9.5.1+1.21.1 (curios)
+		ExpandAbility 12.0.0 (expandability)
+		Flywheel 1.0.6 (flywheel)
+		Framework 0.13.11 (framework)
+		GLASS Remastered 1.0.0-experimental.sable+1.21.1 (glass)
+		Immersive Portals x Sable 0.5.0 (immersive_portals_core)
+		KeepCuriosInventory 1.21.1-1.0.0 (keepcuriosinventory)
+		Minecraft 1.21.1 (minecraft)
+		More Relics 1.7.7-forRelics-0.12.8-1.0 (morerelics)
+		NeoForge 21.1.265 (neoforge)
+		OctoLib 0.6.2 (octolib)
+		OneChunk 1.0.0 (onechunk)
+		Pack Balance 1.0.0 (pack_balance)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		Relics 0.12.11 (relics)
+		reliquified_artifacts 1.0.9 (reliquified_artifacts)
+		Sable 2.0.6 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		The Twilight Forest 4.8.3345 (twilightforest)
+		TrueUUID 1.3.0 (trueuuid)
+		Veil 4.3.2 (veil)
+		When Dungeons Arise 2.1.68 (dungeons_arise) 
+[15:07:10.294] [main/INFO] [mixin/]: Compatibility level set to JAVA_18 
+[15:07:10.295] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[15:07:10.342] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
+[15:07:10.373] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.374] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.375] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.381] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.385] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[15:07:10.385] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[15:07:10.387] [main/WARN] [mixin/]: Reference map 'reliquified_artifacts.refmap.json' for reliquified_artifacts.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.387] [main/WARN] [mixin/]: Reference map 'backpacked.refmap.json' for backpacked.common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.393] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.393] [main/WARN] [mixin/]: Reference map 'relics.refmap.json' for relics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.482] [main/WARN] [mixin/]: Reference map '' for keepcuriosinventory.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.485] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message 
+[15:07:10.976] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedbackpacks/common/CommonEventHandler (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedbackpacks.common.CommonEventHandler) 
+[15:07:10.985] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER 
+[15:07:10.986] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER) 
+[15:07:10.986] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found morerelics.mixins.json:AbstractClientPlayerMixin from mod morerelics 
+[15:07:10.988] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER 
+[15:07:10.988] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/player/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER) 
+[15:07:10.988] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.player.PlayerRenderer was not found morerelics.mixins.json:PlayerRendererMixin from mod morerelics 
+[15:07:11.019] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER 
+[15:07:11.019] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER) 
+[15:07:11.019] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics 
+[15:07:11.020] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/lithium/common/entity/movement/ChunkAwareBlockCollisionSweeper (java.lang.ClassNotFoundException: net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper) 
+[15:07:11.020] [main/WARN] [mixin/]: @Mixin target net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper was not found relics.mixins.json:compat.lithium.ChunkAwareBlockCollisionSweeperMixin from mod relics 
+[15:07:11.021] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackItem (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackItem) 
+[15:07:11.021] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackItem was not found relics.mixins.json:compat.sophisticatedbackpacks.BackpackItemMixin from mod relics 
+[15:07:11.045] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/crumbling/CrumblingRenderer (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.crumbling.CrumblingRenderer) 
+[15:07:11.045] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/compile/ProgramCompiler (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.compile.ProgramCompiler) 
+[15:07:11.046] [main/WARN] [mixin/]: Error loading class: com/jozufozu/flywheel/core/QuadConverter (java.lang.ClassNotFoundException: com.jozufozu.flywheel.core.QuadConverter) 
+[15:07:11.066] [main/WARN] [mixin/]: Error loading class: dev/ryanhcode/sable/command/argument/SubLevelSelector (java.lang.ClassNotFoundException: dev.ryanhcode.sable.command.argument.SubLevelSelector) 
+[15:07:11.068] [main/WARN] [mixin/]: Error loading class: net/blay09/mods/waystones/api/WaystoneDelegate (java.lang.ClassNotFoundException: net.blay09.mods.waystones.api.WaystoneDelegate) 
+[15:07:11.095] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval) 
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[15:07:11] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[15:07:16] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[15:07:16] [modloading-worker-0/INFO] [be.fl.ex.ExpandAbility/]: ExpandAbility here, who dis?
+[15:07:16] [modloading-worker-0/INFO] [tw.be.BeanContext/]: Starting Bean Context
+[15:07:16] [modloading-worker-0/INFO] [iPortal/]: Loading Immersive Portals config
+[15:07:16] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[15:07:16] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.265, for MC 1.21.1
+[15:07:16] [modloading-worker-0/INFO] [cn.al.tr.Trueuuid/]: TrueUUID NeoForge adapter loaded
+[15:07:16] [modloading-worker-0/INFO] [iPortal/]: iPortal Config Applied
+[15:07:16] [modloading-worker-0/INFO] [iPortal/]: Immersive Portals Mod Initializing
+[15:07:16] [modloading-worker-0/INFO] [qo.im.co.ne.ImmPtlNetworkConfig/]: Immersive Portals Core version 1.0.0
+[15:07:16] [modloading-worker-0/INFO] [iPortal/]: Dimensional Threading is not present
+[15:07:16] [modloading-worker-0/INFO] [iPortal/]: Gravity API is not present
+[15:07:16] [modloading-worker-0/INFO] [tw.be.BeanContext/]: Bean Context loaded in 380 ms
+[15:07:17] [modloading-worker-0/INFO] [de.ry.sa.Sable/]: Sable loaded!
+[15:07:17] [modloading-worker-0/INFO] [de.je.pa.PackBalance/]: [PackBalance] loaded: sable=true simulated=true curios=true relics=true
+[15:07:20] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/CONFIG]: Configuration file /home/jefno/minecraft-packs/Portals-1.21.1/server/config/pack_balance-common.toml is not correct. Correcting
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpack for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpacks for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:cosmetic_backpack for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:selected_backpack for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlockable_backpack_slots for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:immortal_cooldown for minecraft:player
+[15:07:20] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:backpack_scale for minecraft:player
+[15:07:20] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[15:07:20] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:07:20] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23138!/assets/.mcassetsroot' uses unexpected schema
+[15:07:20] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/jefno/minecraft-packs/Portals-1.21.1/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23138!/data/.mcassetsroot' uses unexpected schema
+[15:07:20] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[15:07:20] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.265
+[15:07:20] [main/INFO] [co.si.cr.Create/]: Created 265 recipes which will be injected into the game
+[15:07:20] [main/INFO] [co.si.cr.Create/]: Created 4 tags which will be injected into the game
+[15:07:20] [main/INFO] [minecraft/MinecraftServer]: Found new data pack create:dynamic_data, loading it automatically
+[15:07:21] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
+[15:07:21] [main/INFO] [minecraft/Main]: No existing world data, creating new world
+[15:07:21] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/all.json cleared by mod/reliquified_artifacts, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:07:21] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/belt.json cleared by mod/reliquified_artifacts, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:07:21] [Worker-Main-14/WARN] [ar.Artifacts/]: Tag entries for artifacts:tags/item/slot/hands.json cleared by mod/reliquified_artifacts, this is probably a bug. If you're unable to equip specific items, try removing the offending mod before reporting
+[15:07:21] [main/INFO] [minecraft/RecipeManager]: Loaded 3608 recipes
+[15:07:21] [main/ERROR] [minecraft/AdvancementTree]: Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_arise:find_fishing_hut]
+[15:07:21] [main/INFO] [minecraft/AdvancementTree]: Loaded 3244 advancements
+[15:07:21] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[15:07:21] [main/INFO] [Curios API/]: Loaded 12 curio entities
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:cogwheel'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:bamboo_basket'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:turtle_shell'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:cardboard_box'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:classic'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:trash_can'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:standard'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:end_crystal'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:vintage'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:piglin_pack'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:wandering_bag'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:rocket'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:mini_chest'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:sheep_plush'
+[15:07:21] [main/INFO] [Backpacked/]: Adding backpack 'backpacked:honey_jar'
+[15:07:24] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[15:07:24] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[15:07:24] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[15:07:24] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[15:07:24] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25591
+[15:07:24] [Server thread/INFO] [de.ry.sa.Sable/]: Adding UDP server channel future
+[15:07:24] [Netty Epoll Server IO #0/INFO] [de.ry.sa.Sable/]: Server UDP channel active
+[15:07:24] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[15:07:24] [Server thread/INFO] [Framework/]: Loading server configs...
+[15:07:24] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[15:07:24] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[15:07:24] [Server thread/INFO] [de.ry.sa.Sable/]: Using game directory relative Sable Rapier native directory /home/jefno/minecraft-packs/Portals-1.21.1/server/.sable/natives
+[2026-11-09T14:07:24.411048744Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:24] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: The server has no dimension stack preset.
+[15:07:28] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1718, y=-49, z=-1800}
+[15:07:28] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1718, y=-49, z=-1800}
+[15:07:28] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1718, y=-49, z=-1800}
+[15:07:28] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1718, y=-49, z=-1800}
+[15:07:29] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1741, y=-49, z=-1834}
+[15:07:29] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1741, y=-49, z=-1834}
+[15:07:29] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1741, y=-49, z=-1834}
+[15:07:29] [Worker-Main-12/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1773, y=-49, z=-1866}
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.372435471Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / twilightforest:twilight_forest] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.388052965Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.404326352Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / onechunk:source] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.425682148Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [OneChunk/]: Source dimension mirrors overworld biome source net.minecraft.world.level.biome.MultiNoiseBiomeSource
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / onechunk:onechunk] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.441365254Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / ipl_sable:sublevels] using RapierPhysicsPipelineProvider
+[2026-11-09T14:07:30.753274050Z] [INFO] (sable_rapier) Rapier scene initialized
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized minecraft:overworld
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement minecraft:overworld null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized minecraft:the_nether
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement minecraft:the_nether null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized twilightforest:twilight_forest
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement twilightforest:twilight_forest null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized minecraft:the_end
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement minecraft:the_end null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized onechunk:source
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement onechunk:source null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized onechunk:onechunk
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement onechunk:onechunk null
+[15:07:30] [Server thread/INFO] [qo.im.co.po.gl.GlobalPortalStorage/]: Global portal storage initialized ipl_sable:sublevels
+[15:07:30] [Server thread/INFO] [qo.im.pe.di.DimStackManagement/]: Bedrock Replacement ipl_sable:sublevels null
+[15:07:30] [Server thread/INFO] [qo.q_.di.DimensionIntId/]: Server dimension integer id mapping:
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+twilightforest:twilight_forest -> 2
+onechunk:source -> 3
+onechunk:onechunk -> 4
+ipl_sable:sublevels -> 5
+[15:07:30] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[15:07:30] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:31] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:31] [Worker-Main-9/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1773, y=-49, z=-1866}
+[15:07:31] [Worker-Main-9/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1773, y=-49, z=-1866}
+[15:07:31] [Worker-Main-9/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1773, y=-49, z=-1866}
+[15:07:31] [Worker-Main-9/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-1741, y=-49, z=-1834}
+[15:07:31] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:32] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:32] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:33] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:33] [Worker-Main-12/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:34] [Worker-Main-13/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[15:07:34] [Worker-Main-12/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 14%
+[15:07:35] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[15:07:35] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[15:07:36] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[15:07:36] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[15:07:37] [Worker-Main-15/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 32%
+[15:07:37] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[15:07:38] [Worker-Main-9/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[15:07:38] [Worker-Main-21/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[15:07:38] [Server thread/INFO] [ipl-sable-bridge/]: [IPL-SABLE] Sable detected on classpath; sub-level-aware integration active.
+[15:07:38] [Server thread/INFO] [ipl-sable-bridge/]: [IPL-SABLE] ======== FIX BUILD: ROUND 5 (2026-07-24) ========
+[15:07:38] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 8078 ms
+[15:07:38] [Server thread/INFO] [minecraft/DedicatedServer]: Done (14.621s)! For help, type "help"
+[15:07:38] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[15:07:38] [Server thread/INFO] [OneChunk/]: [OneChunk] Loaded 0 islands, 0 cycles so far, next reset in 900 s, interval 15 min.
+[15:07:38] [Server thread/INFO] [qo.im.co.po.cu.CustomPortalGenManager/]: Processing custom portal generation
+[15:07:38] [Server thread/INFO] [ipl-sable-dim/]: [IPL-SABLE-DIM] ipl_sable:sublevels loaded OK - dim=ipl_sable:sublevels chunkSource=ServerChunkCache
+[15:07:38] [Server thread/INFO] [de.je.pa.PackBalance/]: [PackBalance] recipes loaded: 3608 total, 1624 create:*, 6 pack_balance:* (stripped variants); blocked materials: iron gold redstone lapis diamond netherite emerald
+[15:07:38] [Server thread/INFO] [de.je.pa.PackBalance/]: [RemovedItems] Relics relic-loot cache: 147 -> 138 entries; purged [morerelics:thermoseismic_heart(w300), morerelics:biojoint(w100), morerelics:biojoint(w500), morerelics:vertebrax(w100), morerelics:tyrant_mask(w500), morerelics:bionic_eye(w500), morerelics:depleted_spool(w300), morerelics:depleted_spool(w500), morerelics:depleted_spool(w300)]
+[15:07:38] [Server thread/INFO] [de.je.pa.PackBalance/]: [RemovedItems] 13 removed items configured; recipes producing them: 0
+[15:07:38] [Server thread/INFO] [ipl-sable-rehome/]: [IPL-BOOT-RESTORE] scanned 0 region file(s), released 0 held sub-level(s)
+[15:07:38] [Server thread/INFO] [iPortal/]: Server performance level: medium
+[15:07:38] [Server thread/INFO] [ipl-watchdog/]: [IPL-WATCHDOG] started (stall threshold 8s)
+[15:07:43] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=103
+[15:07:48] [Server thread/INFO] [minecraft/MinecraftServer]: Marked 64 chunks in Twilight Forest from [-4, -4] to [3, 3] to be force loaded
+[15:07:48] [Server thread/INFO] [minecraft/MinecraftServer]: Marked chunk [12, 12] in Overworld to be force loaded
+[15:07:48] [Server thread/INFO] [minecraft/MinecraftServer]: Successfully filled 9 block(s)
+[15:07:48] [Server thread/INFO] [OneChunk/]: [OneChunk] Island created at chunk (200, 200) = blocks 3200..3215, 3200..3215; pad 3208, 64, 3208. 1 islands total.
+[15:07:48] [Server thread/INFO] [OneChunk/]: [OneChunk] Island (200, 200): preparing source chunk (-23939, 14515) (minecraft:snowy_taiga, attempt 1).
+[15:07:48] [Server thread/INFO] [OneChunk/]: [OneChunk] Link: minecraft:overworld 200, 69, 200 -> onechunk:onechunk 3208, 64, 3208
+[15:07:48] [Server thread/INFO] [minecraft/MinecraftServer]: Pad minecraft:overworld 200, 69, 200 links to onechunk:onechunk 3208, 64, 3208
+[15:07:48] [Server thread/INFO] [de.je.pa.PackBalance/]: [PackBalanceTest] Recipe dump written to /home/jefno/minecraft-packs/Portals-1.21.1/server/pack_balance_recipe_dump.txt
+[15:07:48] [Server thread/INFO] [minecraft/MinecraftServer]: Recipe dump written to /home/jefno/minecraft-packs/Portals-1.21.1/server/pack_balance_recipe_dump.txt
+[15:07:48] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Is the server overloaded? Running 2638ms or 52 ticks behind
+[15:07:49] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=147
+[15:07:49] [Server thread/INFO] [OneChunk/]: [OneChunk] Initial fill island (200, 200) reset #1 starting: source chunk (-23939, 14515) ready after 19 ticks (waited 18 at the head of the queue).
+[15:07:50] [Server thread/INFO] [OneChunk/]: [OneChunk] Initial fill island (200, 200) reset #1 done: source chunk (-23939, 14515) = blocks (-383024, 232240) in onechunk:source -> island chunk (200, 200); snapshot 1 ms, copy 10 ticks / 489 ms wall, 31442 blocks changed, 31338 non-air, 0 block entities, 0 entities copied, 0 held entities re-placed {}, centre biome minecraft:snowy_taiga, pad 3208, 66, 3208 intact=true air=true, island hash c0b256ba75af8b7a
+[15:07:54] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=253
+[15:07:59] [Server thread/INFO] [iPortal/]: Server performance level: good
+[15:07:59] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=354
+[15:08:04] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=455
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: Overworld: 20.000 TPS (0.380 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: Nether: 20.000 TPS (0.017 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: Twilight Forest: 20.000 TPS (0.790 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: The End: 20.000 TPS (0.021 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: onechunk:source: 20.000 TPS (0.013 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: onechunk:onechunk: 20.000 TPS (0.008 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: ipl_sable:sublevels: 20.000 TPS (0.015 ms/tick)
+[15:08:06] [Server thread/INFO] [minecraft/MinecraftServer]: Overall: 20.000 TPS (1.271 ms/tick)
+[15:08:09] [Server thread/INFO] [ipl-heartbeat/]: [IPL-HEARTBEAT] tick=556
+[15:08:11] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping the server
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld twilightforest:twilight_forest world'/twilightforest:twilight_forest
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld twilightforest:twilight_forest world'/twilightforest:twilight_forest
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld onechunk:source world'/onechunk:source
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld onechunk:source world'/onechunk:source
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld onechunk:onechunk world'/onechunk:onechunk
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld onechunk:onechunk world'/onechunk:onechunk
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerWorld ipl_sable:sublevels world'/ipl_sable:sublevels
+[15:08:12] [Server thread/INFO] [de.ry.sa.Sable/]: Saving sub-levels for level 'ServerWorld ipl_sable:sublevels world'/ipl_sable:sublevels
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (source): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (onechunk): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (sublevels): All chunks are saved
+[15:08:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:08:12] [Server thread/INFO] [ipl-sable-transit/]: [IPL-SHUTDOWN] hosting dim post-drain: loadedChunks=0 liveSubLevels=0
+[15:08:12] [Server thread/INFO] [Framework/]: Unloading server configs...
+[15:08:12] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.backpack.toml
+[15:08:12] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.wandering_trader.toml
+[15:08:12] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.pickpocketing.toml
+[15:08:12] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.augments.toml
+[15:08:12] [Server thread/INFO] [Framework/]: Finished unloading server configs
+EXIT 0
