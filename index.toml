@@ -81,6 +81,10 @@ file = "config/offroad-server.toml"
 hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
+file = "config/pack_balance-common.toml"
+hash = "fbef6d3845b56ad540791ab0f3411337d2ef40ee586cf2dca262a96a88eca9f9"
+
+[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 

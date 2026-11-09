@@ -1,0 +1,57 @@
+#Feature 1: Create may not generate base ores out of other materials.
+[create_ores]
+	#Materials Create recipes may not produce from an input that is not already that material.
+	#Known values: iron, gold, redstone, lapis, diamond, netherite, emerald, copper, zinc, quartz.
+	#Removing a material from this list restores the original Create recipes (restart or /reload).
+	blockedMaterials = ["iron", "gold", "redstone", "lapis", "diamond", "netherite", "emerald"]
+
+#Feature 2: drill cap per vehicle (Create contraptions and Sable/Aeronautics ships).
+[drills]
+	#Maximum drills on one vehicle. Assembly with more is refused. -1 disables the cap.
+	# Default: 25
+	# Range: -1 ~ 100000
+	maxDrillsPerVehicle = 25
+	#Block ids that count as a drill.
+	drillBlocks = ["create:mechanical_drill"]
+	#Also refuse placing a drill onto an already assembled Sable ship when that would exceed the cap.
+	blockPlacementOnShips = true
+
+#Feature 3: heart charm cap.
+[heart_charms]
+	#Items capped across all (non-cosmetic) Curios slots of one player.
+	cappedItems = ["artifacts:crystal_heart"]
+	#How many of the capped items one player may wear at once.
+	# Default: 1
+	# Range: 0 ~ 64
+	maxEquipped = 1
+	#Power of the explosion when a player is found wearing too many (blocks are never broken). 0 = no explosion.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	explosionPower = 2.0
+	#How often (ticks) the safety net scans each player's Curios.
+	# Default: 20
+	# Range: 1 ~ 1200
+	checkIntervalTicks = 20
+
+[debug]
+	#Enable /packbalance test ... commands (dev testing only, op level 2).
+	enableTestCommands = false
+
+#Feature 4: items that cannot be obtained in survival.
+[removed_items]
+	#Stripped from all generated loot (loot tables, loot modifiers, Relics relic loot), blocked as
+	#Relics evolution grants, cancelled as dropped item entities, hidden from creative tabs, and
+	#deleted from player inventories, ender chests, Curios slots and opened containers.
+	items = ["morerelics:made_in_heaven", "morerelics:king_crimson", "morerelics:wonder_of_u", "morerelics:slumbering_amulet", "morerelics:whispering_amulet", "morerelics:tyrant_mask", "morerelics:converging_orb", "morerelics:depleted_spool", "morerelics:weavers_spool", "morerelics:biojoint", "morerelics:bionic_eye", "morerelics:vertebrax", "morerelics:thermoseismic_heart", "relics:ghostly_mantle", "relics:piglin_mask", "relics:reflective_necklace", "morerelics:twin_fangs", "morerelics:guts_orb", "morerelics:runic_plate", "morerelics:sentient_rust", "morerelics:shieldweave_cape", "morerelics:swiftedge", "artifacts:chorus_totem"]
+	#How often (ticks) each player's inventory, ender chest and Curios are scanned.
+	# Default: 20
+	# Range: 1 ~ 1200
+	scanIntervalTicks = 20
+
+#Feature 5: More Relics Mass Gauntlet.
+[mass_gauntlet]
+	#Heavy Hitter bonus damage scales with the attacker's max health, but only up to this many HP.
+	#30 = 1.5 health bars. -1 disables the cap.
+	# Default: 30.0
+	# Range: -1.0 ~ 100000.0
+	maxHealthCap = 30.0
