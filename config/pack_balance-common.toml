@@ -42,7 +42,7 @@
 	#Stripped from all generated loot (loot tables, loot modifiers, Relics relic loot), blocked as
 	#Relics evolution grants, cancelled as dropped item entities, hidden from creative tabs, and
 	#deleted from player inventories, ender chests, Curios slots and opened containers.
-	items = ["morerelics:made_in_heaven", "morerelics:king_crimson", "morerelics:wonder_of_u", "morerelics:slumbering_amulet", "morerelics:whispering_amulet", "morerelics:tyrant_mask", "morerelics:converging_orb", "morerelics:depleted_spool", "morerelics:weavers_spool", "morerelics:biojoint", "morerelics:bionic_eye", "morerelics:vertebrax", "morerelics:thermoseismic_heart", "relics:ghostly_mantle", "relics:piglin_mask", "relics:reflective_necklace", "morerelics:twin_fangs", "morerelics:guts_orb", "morerelics:runic_plate", "morerelics:sentient_rust", "morerelics:shieldweave_cape", "morerelics:swiftedge", "artifacts:chorus_totem"]
+	items = ["morerelics:made_in_heaven", "morerelics:king_crimson", "morerelics:wonder_of_u", "morerelics:slumbering_amulet", "morerelics:whispering_amulet", "morerelics:tyrant_mask", "morerelics:converging_orb", "morerelics:depleted_spool", "morerelics:weavers_spool", "morerelics:biojoint", "morerelics:bionic_eye", "morerelics:vertebrax", "morerelics:thermoseismic_heart", "relics:ghostly_mantle", "relics:piglin_mask", "relics:reflective_necklace", "morerelics:twin_fangs", "morerelics:guts_orb", "morerelics:runic_plate", "morerelics:sentient_rust", "morerelics:shieldweave_cape", "morerelics:swiftedge", "artifacts:chorus_totem", "artifacts:fire_gauntlet", "artifacts:shock_pendant", "artifacts:thorn_pendant"]
 	#How often (ticks) each player's inventory, ender chest and Curios are scanned.
 	# Default: 20
 	# Range: 1 ~ 1200

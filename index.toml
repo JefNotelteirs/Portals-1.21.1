@@ -82,7 +82,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/pack_balance-common.toml"
-hash = "fbef6d3845b56ad540791ab0f3411337d2ef40ee586cf2dca262a96a88eca9f9"
+hash = "5c90bd3954ba18670a8981aa2950dfbd20bc20655f92464287ea030e464eafd5"
 
 [[files]]
 file = "config/ponder-client.toml"
