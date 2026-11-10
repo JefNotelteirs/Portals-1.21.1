@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/onechunk-neoforge-1.21.1-1.0.0.jar"
-hash = "0fd42c855ace397029c908fe7d7c408ffdcda5aefca467e126208c7d8c05bade"
+hash = "d835879e546c6d59daf031d637014db563ded55f1648b6af2fecc0ba2a9ade6e"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
