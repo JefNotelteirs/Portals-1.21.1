@@ -1,4 +1,4 @@
-# Portals 1.21.1
+# Psycho Gaming 2027 (Portals 1.21.1)
 
 ## Install (players)
 

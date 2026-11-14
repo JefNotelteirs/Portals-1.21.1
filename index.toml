@@ -58,6 +58,10 @@ file = "config/defaultoptions/options.txt"
 hash = "49aaec10c9300c00585af6115c6ffa602cc622ae8661462ad28954ba0631e05f"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "81c769d1b906317990ff69015c276f0b1023cea8d29c48a18c9b886c3a2baf7f"
+
+[[files]]
 file = "config/flywheel-client.toml"
 hash = "cf802bcdb805f78b2254eca13ab89f0d36a2404124eeb4e743019f011c981807"
 
@@ -128,6 +132,10 @@ hash = "11cdd50ade194ded67a72c40c95f810ce166760c02d87e9c9deae1ede4ae8f49"
 [[files]]
 file = "config/unbreakables-common.toml"
 hash = "bd6ca01c133c29860782e2e9e698d4063bbeb236cc7680550c7d495536afe4f3"
+
+[[files]]
+file = "icon.png"
+hash = "72c3dad7c71cb3248e447537ccf1cac36fc60451335f5f56c2971f0110f5c5a5"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"

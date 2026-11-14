@@ -1,4 +1,4 @@
-name = "Portals 1.21.1"
+name = "Psycho Gaming 2027"
 author = "JefNo"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "79d5b2f8da62707d7cc8fd7b0ea1ad4447f758595a4c961c3da5908a9a1b9e20"
+hash = "5f9dcab183a9af0e282851f16c4651139e94ff70dbab848b5dee211ff26bcd05"
 
 [versions]
 minecraft = "1.21.1"
