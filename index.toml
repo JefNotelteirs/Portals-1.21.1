@@ -150,6 +150,11 @@ hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
 
 [[files]]
+file = "mods/biolith.pw.toml"
+hash = "17a19b546170937c6c676c026b1cd80909ac7ac4fe70b1830ce37b9c72585085"
+metafile = true
+
+[[files]]
 file = "mods/byte.pw.toml"
 hash = "4f38a1932a493c7b100f13356c65bf1cc4d43e4cb3430d428202452d1d5800a0"
 metafile = true
@@ -175,6 +180,11 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
+file = "mods/darker-depths.pw.toml"
+hash = "cf0cffe3b3eebf0302b5671e3d620c24c5b2b73a33aa19efba3eab7da5783981"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
@@ -187,6 +197,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
@@ -240,7 +255,7 @@ hash = "c0bf77e5183fc7f9c44336303b9d8cd8cc84ec4e98f4e972af17608f4f28f98e"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
-hash = "b96c55ba0848cbc3fc3931e685991bf8229132bc4eb96361497a8f41eaa2149b"
+hash = "b0f5d0c6d48ac20d7596bb10914a9fb01fd1314903d38e9fc2160edac292b881"
 
 [[files]]
 file = "mods/platform.pw.toml"
