@@ -2,7 +2,7 @@
 
 ## Install (players)
 
-1. Install Prism Launcher (prismlauncher.org) and log in with your Minecraft account.
+1. Install Prism Launcher (prismlauncher.org, Windows installer is fine) and log in with your Minecraft account.
 2. Download **PsychoGaming2027-Prism.zip**:
    https://github.com/JefNotelteirs/Portals-1.21.1/releases/latest/download/PsychoGaming2027-Prism.zip
 3. In Prism: **Add Instance**, **Import**, pick the zip, **OK**.
