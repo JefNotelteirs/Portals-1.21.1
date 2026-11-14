@@ -14,6 +14,9 @@
 4. Launch. Every launch updates the pack. On the very first start you get the pack's default options
    (auto-jump off, music at 70%, no intro screens); after that your own settings are never touched.
    Shaders (Iris) are installed but off; pick one under Options, Video Settings, Shader Packs.
+5. The installer asks one question on the first install: tick "AZERTY keyboard" only if you play on AZERTY.
+   Do not add `-g` to the pre-launch command: without its window the installer ticks every option,
+   AZERTY included.
 
 Minecraft **1.21.1**, NeoForge **21.1.265**. A packwiz pack for Jef and about 12 friends,
 plus a dedicated server in `~/minecraft-packs/Portals-1.21.1/server`.

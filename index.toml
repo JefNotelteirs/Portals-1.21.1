@@ -49,6 +49,11 @@ file = "config/curios-server.toml"
 hash = "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734"
 
 [[files]]
+file = "config/defaultoptions/azerty-keybindings.pw.toml"
+hash = "848292691e405ed2e40e7b3733d7bba42bd5302ead499d51e7dff74c8263a803"
+metafile = true
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "49aaec10c9300c00585af6115c6ffa602cc622ae8661462ad28954ba0631e05f"
 

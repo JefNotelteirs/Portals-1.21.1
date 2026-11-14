@@ -1,0 +1,13 @@
+name = "AZERTY keyboard"
+filename = "keybindings.txt"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/JefNotelteirs/Portals-1.21.1/master/extras/azerty-keybindings.txt"
+hash-format = "sha256"
+hash = "0642a060af04e09b5462ccefba7bbff0c72cfb17b350c461da6f92576c7b13a7"
+
+[option]
+optional = true
+default = false
+description = "Tick this if you play on an AZERTY keyboard: walk with Z Q S D, drop items with A. Leave it unticked for QWERTY (W A S D)."

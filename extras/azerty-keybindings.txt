@@ -1,0 +1,5 @@
+key_key.forward:key.keyboard.z
+key_key.left:key.keyboard.q
+key_key.back:key.keyboard.s
+key_key.right:key.keyboard.d
+key_key.drop:key.keyboard.a
