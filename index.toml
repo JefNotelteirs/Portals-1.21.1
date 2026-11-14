@@ -176,8 +176,9 @@ hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
 
 [[files]]
-file = "mods/glass-1.0.0-experimental.sable+1.21.1-neoforge-ipcompat.jar"
-hash = "f076d38ea2aeadc01ad29243077b3c5cc479504be724b398dd927a3152f2147a"
+file = "mods/glass-remastered.pw.toml"
+hash = "728e3bdea96b8dc5cbcb6aa3fc02de66965c11169d379cfa4faf816a35fd8d0a"
+metafile = true
 
 [[files]]
 file = "mods/immersive-portals-ipsable.pw.toml"
@@ -216,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/onechunk-neoforge-1.21.1-1.0.0.jar"
-hash = "03929234e2f714fcd56215b6c953cc68e53011e315c0af6c1b881c9117594925"
+hash = "c0bf77e5183fc7f9c44336303b9d8cd8cc84ec4e98f4e972af17608f4f28f98e"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
