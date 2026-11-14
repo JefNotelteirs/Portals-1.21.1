@@ -1,0 +1,13 @@
+name = "Wider Ender Chests"
+filename = "wider_ender_chests-neoforge-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EDVt0J2I/versions/GXeus2td/wider_ender_chests-neoforge-1.21.1-1.0.4.jar"
+hash-format = "sha512"
+hash = "e96613dcf53bce0f1ae106e43a46dfe96ab023b2141885a8e03a10d3bc8454c9d1cc519d1882442728c7800b25bf50ea9b6db5cf210c80f3cdccac7f1aa2f2bf"
+
+[update]
+[update.modrinth]
+mod-id = "EDVt0J2I"
+version = "GXeus2td"

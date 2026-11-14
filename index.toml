@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/onechunk-neoforge-1.21.1-1.0.0.jar"
-hash = "d835879e546c6d59daf031d637014db563ded55f1648b6af2fecc0ba2a9ade6e"
+hash = "03929234e2f714fcd56215b6c953cc68e53011e315c0af6c1b881c9117594925"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
@@ -265,6 +265,11 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
+metafile = true
+
+[[files]]
+file = "mods/wider-ender-chests.pw.toml"
+hash = "bd984da5bc14a585ab882fb672d92b50f9885e46b9504af5f315e2559ce10072"
 metafile = true
 
 [[files]]
