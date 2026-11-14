@@ -243,6 +243,11 @@ file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
 hash = "b96c55ba0848cbc3fc3931e685991bf8229132bc4eb96361497a8f41eaa2149b"
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "a76b6068b10171b1fc244d5cb0a9dfbd0694b33e25c62eeeb5726c73d297cd3d"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "98ae27f0381f08ada1be2336d2afc106d8cfa99057e6262556570e5877d9b094"
 metafile = true
@@ -280,6 +285,11 @@ metafile = true
 [[files]]
 file = "mods/unbreakables.pw.toml"
 hash = "6a67cd50ab1b36a3a339ca74d8386ac48a1f26fc8bb846c7ffd9d9f99140ae37"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "0ea8ab3c8eebc336062f5e2da28c50f460fdc555913a9a66e4f27972c3a5e1ef"
 metafile = true
 
 [[files]]
