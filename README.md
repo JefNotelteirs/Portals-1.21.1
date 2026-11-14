@@ -1,5 +1,20 @@
 # Portals 1.21.1
 
+## Install (players)
+
+1. In Prism Launcher, add an instance: Minecraft 1.21.1, NeoForge 21.1.265. Give it 6 to 8 GB of memory.
+2. Download `packwiz-installer-bootstrap.jar` from https://github.com/packwiz/packwiz-installer-bootstrap/releases
+   and put it in the instance's `minecraft` folder (Prism: Folder button, then `minecraft`).
+3. Instance settings, Custom commands, Pre-launch command:
+   ```
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/JefNotelteirs/Portals-1.21.1/master/pack.toml
+   ```
+   Do not add `--bootstrap-no-update` on a fresh install: the bootstrap then cannot download packwiz-installer
+   and stops with "packwiz-installer cannot be found".
+4. Launch. Every launch updates the pack. On the very first start you get the pack's default options
+   (auto-jump off, music at 70%, no intro screens); after that your own settings are never touched.
+   Shaders (Iris) are installed but off; pick one under Options, Video Settings, Shader Packs.
+
 Minecraft **1.21.1**, NeoForge **21.1.265**. A packwiz pack for Jef and about 12 friends,
 plus a dedicated server in `~/minecraft-packs/Portals-1.21.1/server`.
 

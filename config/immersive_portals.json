@@ -28,7 +28,7 @@
   "netherPortalMode": "adaptive",
   "endPortalMode": "normal",
   "enableMirrorCreation": true,
-  "enableWarning": true,
+  "enableWarning": false,
   "lightVanillaNetherPortalWhenCrouching": true,
   "enableServerPerformanceAdjustment": true,
   "enableDatapackPortalGen": true,

@@ -1,0 +1,7 @@
+autoJump:false
+soundCategory_music:0.7
+onboardAccessibility:false
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+realmsNotifications:false
