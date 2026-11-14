@@ -2,33 +2,16 @@
 
 ## Install (players)
 
-1. In Prism Launcher, add an instance: Minecraft 1.21.1, NeoForge 21.1.265. Give it 4 GB of memory (Settings, Java, Maximum memory: 4096 MiB); more is not needed.
-2. Download `packwiz-installer-bootstrap.jar` from https://github.com/packwiz/packwiz-installer-bootstrap/releases
-   and put it in the instance's `minecraft` folder (Prism: Folder button, then `minecraft`).
-3. Instance settings, Custom commands, Pre-launch command:
-   ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/JefNotelteirs/Portals-1.21.1/master/pack.toml
-   ```
-   Do not add `--bootstrap-no-update` on a fresh install: the bootstrap then cannot download packwiz-installer
-   and stops with "packwiz-installer cannot be found".
-4. Launch. Every launch updates the pack. On the very first start you get the pack's default options
-   (auto-jump off, music at 70%, no intro screens); after that your own settings are never touched.
-   Shaders (Iris) are installed but off; pick one under Options, Video Settings, Shader Packs.
-5. The installer asks one question on the first install: tick "AZERTY keyboard" only if you play on AZERTY.
-   Do not add `-g` to the pre-launch command: without its window the installer ticks every option,
-   AZERTY included.
+1. Install Prism Launcher (prismlauncher.org) and log in with your Minecraft account.
+2. Download **PsychoGaming2027-Prism.zip**:
+   https://github.com/JefNotelteirs/Portals-1.21.1/releases/latest/download/PsychoGaming2027-Prism.zip
+3. In Prism: **Add Instance**, **Import**, pick the zip, **OK**.
+4. Select "Psycho Gaming 2027" and press **Launch**. The first launch downloads all mods (a few minutes) and
+   asks one question: tick "AZERTY keyboard" only if you play on AZERTY. Every later launch updates the pack.
+5. The server "Psycho Gaming 2027" is already in your multiplayer list.
 
-Minecraft **1.21.1**, NeoForge **21.1.265**. A packwiz pack for Jef and about 12 friends,
-plus a dedicated server in `~/minecraft-packs/Portals-1.21.1/server`.
-
-The `.pw.toml` files and configs of the mods it shares with Jef's pack "Psychokring return of the
-PSY" (Prism instance `~/.local/share/PrismLauncher/instances/Psychokring return of the PSY-1.0.0`,
-repo github.com/JefNotelteirs/Psychokring_return_of_the_PSY) were copied from there, not
-re-resolved. That instance and that repo were not touched. Only the mods Jef asked for are in it.
-
-Theme: Create + Create Aeronautics airships, see-through Immersive Portals, Relics and Artifacts
-trinkets, Twilight Forest, Backpacked, and the custom OneChunk void dimension. Curios/relic slots
-survive death, nothing else does.
+Everything is set in the zip: Minecraft 1.21.1 + NeoForge 21.1.265, 4 GB memory, auto-update from this repo.
+Shaders (Iris) are installed but off; pick one under Options, Video Settings, Shader Packs.
 
 ## Status at a glance
 
