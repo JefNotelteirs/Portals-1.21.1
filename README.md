@@ -2,7 +2,7 @@
 
 ## Install (players)
 
-1. In Prism Launcher, add an instance: Minecraft 1.21.1, NeoForge 21.1.265. Give it 6 to 8 GB of memory.
+1. In Prism Launcher, add an instance: Minecraft 1.21.1, NeoForge 21.1.265. Give it 4 GB of memory (Settings, Java, Maximum memory: 4096 MiB); more is not needed.
 2. Download `packwiz-installer-bootstrap.jar` from https://github.com/packwiz/packwiz-installer-bootstrap/releases
    and put it in the instance's `minecraft` folder (Prism: Folder button, then `minecraft`).
 3. Instance settings, Custom commands, Pre-launch command:
@@ -75,7 +75,7 @@ server drops it too). If you want to change your tick later, delete
 ## 2. Playtest in Prism (client)
 
 The instance already exists: `~/.local/share/PrismLauncher/instances/Portals 1.21.1`
-(Minecraft 1.21.1, NeoForge 21.1.265, Java 21 from Prism, 8 GB max RAM).
+(Minecraft 1.21.1, NeoForge 21.1.265, Java 21 from Prism, 4 GB max RAM).
 
 Its pre-launch command syncs from the LOCAL pack, no GitHub needed:
 
