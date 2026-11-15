@@ -34,7 +34,7 @@ hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
+hash = "8cfe94e37b371a472855cc303a382a1b4683ec98e233a95242e5f2ec31f69b65"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -263,7 +263,7 @@ hash = "c0bf77e5183fc7f9c44336303b9d8cd8cc84ec4e98f4e972af17608f4f28f98e"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
-hash = "8ec97c0e4c525707d4b5dbfe4f5ef4ca92b25d0f76a319b67c194cca694b5865"
+hash = "9db7d2b9f75aade26a69dc76ff1802be56328a26ec5eb629adfdec61977cf0b7"
 
 [[files]]
 file = "mods/platform.pw.toml"
@@ -333,6 +333,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "e97cb865d7a8c8310905d9140899fa55ea23c3fff2e23a17255ce2c162322ad7"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]
