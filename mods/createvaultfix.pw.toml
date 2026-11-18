@@ -1,0 +1,13 @@
+name = "CreateVaultFix"
+filename = "createvaultfix-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9IKOdKp3/versions/LUvf4dRi/createvaultfix-1.0.0.jar"
+hash-format = "sha512"
+hash = "08574146d3fd89d0c8d49c41cd1b5098220f9451c6406dd3a07b1a9be333fab911b96b18d10682d63fb92f92978292ce3915155cb17a6bad4f70f67f5524103d"
+
+[update]
+[update.modrinth]
+mod-id = "9IKOdKp3"
+version = "LUvf4dRi"
