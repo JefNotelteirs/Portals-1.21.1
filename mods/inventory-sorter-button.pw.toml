@@ -1,0 +1,13 @@
+name = "ISB - Inventory Sorter Button"
+filename = "neoforge-1.21_1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EvClqrPn/versions/LQjZj5op/neoforge-1.21_1.21.1.jar"
+hash-format = "sha512"
+hash = "9da254356c78e04cc21da7c990c62e7a4131bc2e8ea94eaffbed6a68953f2a6120fcd549de9d6eebce15363ba6c56a596ffa7955919a4d9bc0ab5568832f053f"
+
+[update]
+[update.modrinth]
+mod-id = "EvClqrPn"
+version = "LQjZj5op"

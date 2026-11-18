@@ -178,6 +178,11 @@ hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "810e114e3f827cb7f78a0c2cdb9087d50bb1393ebb20682daf554747e141322e"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
@@ -228,6 +233,11 @@ hash = "16075f81a6e7434c72bffb51633851b5d734d5150a340e48e6a149a0f960c195"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorter-button.pw.toml"
+hash = "16ea334972650caa38b12a6df28e12b9675aff8b995bb65ac9b34ade9e476b2a"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
@@ -268,7 +278,7 @@ hash = "c0bf77e5183fc7f9c44336303b9d8cd8cc84ec4e98f4e972af17608f4f28f98e"
 
 [[files]]
 file = "mods/pack_balance-neoforge-1.21.1-1.0.0.jar"
-hash = "071063db54d5e0741df502ae7050dcc4eb1199e9b07afb6e50a65cbc3fdb957d"
+hash = "23982a09cc875b4bf18942caaaca28ab0ef47e1ff1bf3c15c6745e7653867b9f"
 
 [[files]]
 file = "mods/platform.pw.toml"
