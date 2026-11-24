@@ -138,6 +138,10 @@ file = "icon.png"
 hash = "72c3dad7c71cb3248e447537ccf1cac36fc60451335f5f56c2971f0110f5c5a5"
 
 [[files]]
+file = "mods/agent_blessings-neoforge-1.21.1-1.0.0.jar"
+hash = "a9073256bac0d7dfe864947f01a458b9a1e80c02ea9cc2043a0438beb270c7a0"
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
